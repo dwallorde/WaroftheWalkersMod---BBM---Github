@@ -7157,11 +7157,11 @@ Mesh files no longer used:
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
-		<property name="Gain_health" value="0"/>
-		<property name="Gain_food" value="10"/>
-		<property name="Buff" value="eatFood_9_Trigger,gainImmunity_medium_Trigger"/>
+		<property name="Gain_health" value="5"/>
+		<property name="Gain_food" value="12"/>
+		<property name="Buff" value="eatFood_11_Trigger,gainImmunity_medium_Trigger"/>
 		<property name="Gain_water" value="0"/>
-		<property name="Gain_wellness" value="0.8"/>
+		<property name="Gain_wellness" value="0.9"/>
 		<property name="Sound_start" value="player_eating"/>
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
@@ -13861,7 +13861,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="10" />
 		<property name="Gain_health" value="10" />
 		<property name="Gain_wellness" value="1.2" />
-		<property name="Buff" value="PieBuff,eatFood_17_Trigger,gainImmunity_medium_Trigger" />
+		<property name="Buff" value="PieBuff,eatFood_15_Trigger,gainImmunity_medium_Trigger" />
 		<property name="Sound_start" value="UseActions/player_eating" />
     </property>
     <property name="Group" value="Food/Cooking" />
@@ -13983,11 +13983,12 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="100" />
 </item>
 
+<!-- Removed V5.1.1 -->
 <item id="1792" name="MeatPieRecipe">
 	<property name="CustomIcon" value="MeatPieRecipe" />
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Recipes_to_learn" value="MeatPie" />
+		<!-- <property name="Recipes_to_learn" value="MeatPie" /> -->
 	</property>
 	<property name="EconomicValue" value="100" />
 </item>
@@ -14087,12 +14088,12 @@ Mesh files no longer used:
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
 		<property name="Use_time" value="0" />
-		<property name="Gain_food" value="26" />
+		<property name="Gain_food" value="60" />
 		<property name="Gain_water" value="-1" />
 		<property name="Gain_stamina" value="15" />
 		<property name="Gain_health" value="9" />
 		<property name="Gain_wellness" value="1.6" />
-		<property name="Buff" value="MeatPieBoost,eatFood_30_Trigger,gainImmunity_large_Trigger" />
+		<property name="Buff" value="MeatPieBoost,eatFood_78_Trigger,gainImmunity_xlarge_Trigger" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
     </property>
     <property name="Smell" value="exLargeSmell" />
@@ -14137,7 +14138,7 @@ Mesh files no longer used:
     <property name="Meshfile" value="Items/Food/goldenrod_teaPrefab" />
     <property name="Material" value="glass" />
     <property name="HoldType" value="3" />
-    <property name="Stacknumber" value="64" />
+    <property name="Stacknumber" value="100" />
     <property class="Action1">
       <property name="Class" value="Eat" />
       <property name="Delay" value="1.0" />
@@ -14486,12 +14487,12 @@ Mesh files no longer used:
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
 		<property name="Use_time" value="0" />
-		<property name="Gain_food" value="24" />
+		<property name="Gain_food" value="31" />
 		<property name="Gain_water" value="0" />
 		<property name="Gain_stamina" value="15" />
 		<property name="Gain_health" value="11" />
 		<property name="Gain_wellness" value="1.8" />
-		<property name="Buff" value="stewWarming,eatFood_30_Trigger,gainImmunity_medium_Trigger" />
+		<property name="Buff" value="stewWarming,eatFood_43_Trigger,gainImmunity_medium_Trigger" />
 		<property name="Sound_start" value="UseActions/player_drinking" />
     </property>
     <property name="Smell" value="exLargeSmell" />
@@ -15647,7 +15648,7 @@ Mesh files no longer used:
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="ChickenRaw" />
 	<property name="Material" value="rawWhiteMeat" />
-	<property name="Weight" value="1" />
+	<property name="Weight" value="2" />
 	<property name="EconomicValue" value="16" />
 	<property name="CraftingIngredientTime" value="15" />
 	<property class="Action1">
@@ -15720,7 +15721,7 @@ Mesh files no longer used:
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="rawMeat" />
 	<property name="Material" value="rawRedMeat" />
-	<property name="Weight" value="1" />
+	<property name="Weight" value="3" />
 	<property name="EconomicValue" value="25" />
 	<property name="CraftingIngredientTime" value="15" />
 	<property class="Action1">
@@ -15780,10 +15781,10 @@ Mesh files no longer used:
 		<property name="Delay" value="1.0" />
 		<property name="Use_time" value="0" />
 		<property name="Gain_health" value="0" />
-		<property name="Gain_food" value="20" />
+		<property name="Gain_food" value="40" />
 		<property name="Gain_water" value="0" />
 		<property name="Gain_wellness" value="1.6" />
-		<property name="Buff" value="stewWarming,eatFood_26_Trigger,gainImmunity_small_Trigger" />
+		<property name="Buff" value="stewWarming,eatFood_52_Trigger,gainImmunity_small_Trigger" />
 	</property>
 	<property name="Smell" value="exLargeSmell" />
 	<property name="Group" value="Food/Cooking" />
@@ -15922,7 +15923,7 @@ Mesh files no longer used:
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="BearMeatRaw" />
 	<property name="Material" value="rawRedMeat" />
-	<property name="Weight" value="1" />
+	<property name="Weight" value="3" />
 	<property name="EconomicValue" value="40" />
 	<property name="CraftingIngredientTime" value="15" />
 	<property class="Action1">
@@ -16712,11 +16713,12 @@ Mesh files no longer used:
 <item id="1929" name="rawWhiteMeat">
 	<property name="CustomIcon" value="ChickenRaw"/>
 	<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
-	<property name="Material" value="organic"/>
+	<property name="Material" value="rawWhiteMeat"/>
 	<property name="HoldType" value="3"/>
 	<property name="Stacknumber" value="50"/> <!-- STK food -->
 	<property name="EconomicValue" value="20"/>
 	<property name="CraftingIngredientTime" value="15"/>
+	<property name="Weight" value="1"/>
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -16737,11 +16739,12 @@ Mesh files no longer used:
 <item id="1930" name="rawRedMeat">
 	<property name="CustomIcon" value="BearMeatRaw"/>
 	<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
-	<property name="Material" value="organic"/>
+	<property name="Material" value="rawRedMeat"/>
 	<property name="HoldType" value="3"/>
 	<property name="Stacknumber" value="50"/> <!-- STK food -->
 	<property name="EconomicValue" value="20"/>
 	<property name="CraftingIngredientTime" value="15"/>
+	<property name="Weight" value="1"/>
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -16847,7 +16850,7 @@ Mesh files no longer used:
 	<property name="Weight" value="200"/>
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Melee"/>
-		<property name="Delay" value="0.65"/>
+		<property name="Delay" value="0.4"/>
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
@@ -16859,6 +16862,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value="2"/>
 		<property name="DamageBonus.organic" value="0.05"/>
 		<property name="ToolCategory.handToolHarvest" value="1" param1="7"/>
+		<property name="ToolCategory.Hoe" value="1"/>
 		<!-- <property name="Sound_harvesting" value="open_animal" param1="organic" /> -->
 	</property>
 	<property class="Attributes">
@@ -16908,6 +16912,7 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value="0.7"/>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
 </item>
 
 <item id="1936" name="strawberryJam">
@@ -16990,6 +16995,154 @@ Mesh files no longer used:
 		<!-- <property name="Recipes_to_learn" value="steelClawHammer"/> -->
 		<property name="Skills_to_gain" value="steelClawHammerSchematicPerk"/>
 	</property>
+</item>
+
+<item id="1940" name="scrapHelmetLight"> <!-- scrapArmor -->
+	<property name="Extends" value="scrapBoots"/>
+	<property name="CustomIcon" value="scrapHelmetLight"/>
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="FuelValue" value="8"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_scrapmetal_helmet"/>
+		<property name="Overlay0" value="armor_scrapmetal_helmet"/>
+		<property name="Layer" value="outer"/>
+		<property name="UISlot" value="Headgear, xEyewear"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="middle"/>
+		<property name="ShowAltHair" value="false"/>
+	</property>
+	<property name="LightValue" value="0.7"/>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+</item>
+
+<item id="1941" name="ironHelmetLight"> <!-- ironArmor -->
+	<property name="Extends" value="ironBoots"/>
+	<property name="CustomIcon" value="ironHelmetLight"/>
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="FuelValue" value="12"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="base"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask2" value="Face" param1="base"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask6" value="Head" param1="base"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
+	</property>
+	<property name="LightValue" value="0.7"/>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+</item>
+
+<item id="1942" name="militaryHelmetLight"> <!-- militaryArmor -->
+	<property name="Extends" value="militaryGloves"/>
+	<property name="CustomIcon" value="militaryHelmetLight"/>
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_kevlar_helmet"/>
+		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="ShowAltHair" value="true"/>
+	</property>
+	<property name="LightValue" value="0.7"/>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+</item>
+
+<item id="1943" name="KevlarHelmetLight">
+	<property name="CustomIcon" value="militaryHelmetLight" />
+    <property name="CustomIconTint" value="B96D2D" />
+	<property name="Extends" value="KevlarBoots" />
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="FuelValue" value="35" />
+    <property name="EquipSlot" value="Head" />
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+    <property class="UMA">
+		<property name="Mesh" value="gear_kevlar_helmet" />
+		<property name="Overlay0" value="gear_kevlar_helmet" />
+		<property name="Layer" value="2" />
+		<property name="UISlot" value="Headgear" />
+		<property name="ShowAltHair" value="true" />
+		<property name="Overlay0Tint" value="B96D2D" />
+    </property>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+	<property name="LightValue" value="0.7"/>
+</item>
+
+<item id="1944" name="SteelHelmetLight">
+    <property name="CustomIcon" value="ironHelmetLight" />
+    <property name="CustomIconTint" value="22375A" />
+	<property name="Extends" value="SteelBoots" />
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="FuelValue" value="17" />
+    <property name="EquipSlot" value="Head" />
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+    <property class="UMA">
+		<property name="Mesh" value="armor_iron_helmet" />
+		<property name="Overlay0" value="armor_iron_helmet" />
+		<property name="Layer" value="middle" />
+		<property name="UISlot" value="Headgear" />
+		<property name="Overlay0Tint" value="22375A" />
+		<property name="Mask0" value="Head" param1="base"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask2" value="Face" param1="base"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask6" value="Head" param1="base"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
+    </property>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+	<property name="LightValue" value="0.7"/>
+</item>
+
+<item id="1945" name="TungstenHelmetLight">
+	<property name="CustomIcon" value="ironHelmetLight" />
+	<property name="CustomIconTint" value="469A84" />
+	<property name="Extends" value="TungstenBoots" />
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="FuelValue" value="15" />
+    <property name="EquipSlot" value="Head" />
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+    <property class="UMA">
+		<property name="Mesh" value="armor_iron_helmet" />
+		<property name="Overlay0" value="armor_iron_helmet" />
+		<property name="Overlay0Tint" value="469A84" />
+		<property name="Layer" value="middle" />
+		<property name="UISlot" value="Headgear" />
+		<property name="Mask0" value="Head" param1="base"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask2" value="Face" param1="base"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask6" value="Head" param1="base"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
+    </property>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+	<property name="LightValue" value="0.7"/>
 </item>
 
 </items>

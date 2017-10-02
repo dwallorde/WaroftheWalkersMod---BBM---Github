@@ -1441,14 +1441,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rawRedMeat" count="1"/>
 </recipe>
 
-<recipe name="grilledMeat" count="1" craft_area="campfire" craft_tool="cookingGrill">
+<!-- <recipe name="grilledMeat" count="1" craft_area="campfire" craft_tool="cookingGrill">
 	<ingredient name="rawRedMeat" count="2"/>
 </recipe>
 
 <recipe name="boiledMeat" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="rawRedMeat" count="2"/>
 	<ingredient name="bottledWater" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="vegetableStew" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="potato" count="5"/>
@@ -1492,15 +1492,16 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
-<recipe name="MeatPie" count="1" craft_area="campfire" craft_tool="cookingPot">
+<!-- Removed V5.1.1 -->
+<!-- <recipe name="MeatPie" count="1" craft_area="campfire" craft_tool="cookingPot">
     <ingredient name="rawRedMeat" count="2" />
     <ingredient name="Dough" count="2" />
     <ingredient name="potato" count="1" />
     <ingredient name="mushrooms" count="1" />
-</recipe>
+</recipe> -->
 
 <recipe name="RoastedMeatPie" count="1" craft_area="campfire" craft_tool="cookingPot">
-    <ingredient name="rawRedMeat" count="4"/>
+    <ingredient name="rawRedMeat" count="6"/>
     <ingredient name="Dough" count="2"/>
     <ingredient name="potato" count="2"/>
     <ingredient name="corn" count="2"/>
@@ -1511,7 +1512,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="VenisonGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
-	<ingredient name="rawRedMeat" count="1"/>
+	<ingredient name="rawRedMeat" count="2"/>
 </recipe>
 
 <recipe name="FishGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
@@ -1519,7 +1520,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="VenisonStew" count="1" craft_area="campfire" craft_tool="cookingPot" craft_exp_gain="50">
-	<ingredient name="rawRedMeat" count="1"/>
+	<ingredient name="rawRedMeat" count="5"/>
 	<ingredient name="potato" count="1"/>
 	<ingredient name="corn" count="1"/>
 	<ingredient name="bottledWater" count="1"/>
@@ -1527,7 +1528,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="MushroomStew" count="1" craft_area="campfire" craft_tool="cookingPot" craft_exp_gain="50">
     <ingredient name="bottledWater" count="1"/>
-    <ingredient name="BearMeatRaw" count="1"/>
+    <ingredient name="rawRedMeat" count="4"/>
     <ingredient name="potato" count="2"/>
     <ingredient name="mushrooms" count="2"/>
 </recipe>
@@ -1582,12 +1583,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="cornBread" count="1" craft_area="campfire" craft_tool="cookingPot">
-	<ingredient name="cornMeal" count="1"/>
+	<ingredient name="cornMeal" count="2"/>
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
 <recipe name="cornMeal" count="1">
-	<ingredient name="corn" count="1"/>
+	<ingredient name="corn" count="2"/>
 </recipe>
 
 <recipe name="moldyBread" count="1" craft_area="chemistryStation">
@@ -1996,6 +1997,18 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="aloePlant" count="1"/>
 </recipe>
 
+<recipe name="Twine" count="1" craft_exp_gain="50">
+	<ingredient name="yuccaFibers" count="20"/>
+	<ingredient name="glue" count="1"/>
+	<ingredient name="cloth" count="5"/>
+</recipe>
+
+<recipe name="paint" count="50" craft_area="chemistryStation">
+	<ingredient name="HouseholdChemicals" count="1"/>
+	<ingredient name="Dye" count="1"/>
+	<ingredient name="bottledRiverWater" count="2"/>
+</recipe>
+
 <recipe name="paint" count="50" craft_area="chemistryStation">
 	<ingredient name="chrysanthemumPlant" count="1"/>
 	<ingredient name="cottonPlant" count="1"/>
@@ -2126,7 +2139,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <!-- * * * * * * * * * * * * Clothing/Tailoring Recipes * * * * * * * * * * * * -->
-
 <recipe name="bandana" count="1">
 	<ingredient name="cloth" count="4"/>
 </recipe>
@@ -2137,11 +2149,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" count="8"/>
 	<ingredient name="ductTape" count="5"/>
 	<ingredient name="scrapPlastics" count="4"/>
-</recipe>
-
-<recipe name="swatHelmetLight" count="1" craft_area="workbench">
-	<ingredient name="swatHelmet" count="1"/>
-	<ingredient name="flashlight02" count="1"/>
 </recipe>
 
 <recipe name="bandana" count="1" craft_area="ClothingWorkStation" craft_exp_gain="50">
@@ -2458,7 +2465,40 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <!-- * * * * * * * * * * * * Armor Recipes * * * * * * * * * * * * -->
 
+<recipe name="swatHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="swatHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
 
+<recipe name="scrapHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="scrapHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
+<recipe name="ironHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="ironHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
+<recipe name="militaryHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="militaryHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
+<recipe name="KevlarHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="KevlarHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
+<recipe name="SteelHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="SteelHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
+<recipe name="TungstenHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="TungstenHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
 
 <recipe name="animalHideBoots" count="1">
 	<ingredient name="animalHide" count="5"/>

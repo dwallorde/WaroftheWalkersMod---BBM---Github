@@ -6141,3 +6141,11 @@ rawRedMeat,items,Item,KgNone,Raw Red Meat,,,,
 rawRedMeatDesc,items,Item,KgNone,"Raw Red Meat harvested from a living source that can be cooked into many recipes","Viande rouge cru récoltée à partir d'une source vivante qui peut être cuit dans de nombreuses recettes","Raw Red Fleisch aus einer lebenden Quelle geerntet, die in viele Rezepte gekocht werden kann",,"Carne roja cruda cosechada de una fuente viva que se puede cocinar en muchas recetas"
 rawWhiteMeat,items,Item,KgNone,Raw White Meat,,,,
 rawWhiteMeatDesc,items,Item,KgNone,"Raw White Meat harvested from a living source that can be cooked into many recipes","Viande blanche brut récoltée à partir d'une source vivante qui peut être cuit dans de nombreuses recettes","Raw White Fleisch geerntet aus einer lebenden Quelle, die in viele Rezepte gekocht werden kann",,"Carne blanca cruda cosechada de una fuente viva que se puede cocinar en muchas recetas"
+swatHelmetLight,items,Item,KgNone,Swat Helmet (Light),,,,
+HelmetLightDesc,items,Item,KgNone,"A Helmet with a light attached\n [ Crafted in Workbench. ]","Un casque avec une lumière attachée","Ein Helm mit einem Licht befestigt",,"Un casco con una luz adjunta"
+scrapHelmetLight,items,Item,KgNone,Scrap Helmet (Light),,,,
+ironHelmetLight,items,Item,KgNone,Iron Helmet (Light),,,,
+militaryHelmetLight,items,Item,KgNone,Military Helmet (Light),,,,
+KevlarHelmetLight,items,Item,KgNone,Kevlar Helmet (Light),,,,
+SteelHelmetLight,items,Item,KgNone,Steel Helmet (Light),,,,
+TungstenHelmetLight,items,Item,KgNone,Tungsten Helmet (Light),,,,

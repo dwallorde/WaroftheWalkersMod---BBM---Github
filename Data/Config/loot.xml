@@ -542,7 +542,7 @@
 	<item name="qc_buythefarm" count="1"/>
 	<item name="qc_drunkanddisorderly" count="1"/>
 	<item name="Challenge_MushroomStew" count="1"/>
-	<item name="Challenge_MeatPie" count="1"/>
+	<!-- <item name="Challenge_MeatPie" count="1"/> -->
 	<item name="Challenge_MeatStew" count="1"/>
 	<item name="Challenge_MossyBrew" count="1"/>
 	<item name="Challenge_VegetableStew" count="1"/>
@@ -1557,7 +1557,7 @@
 	
 <lootgroup name="common_healthandfoodBooks">
 	<item name="BreadRecipe" prob="0.1"/>
-	<item name="MeatPieRecipe" prob="0.075"/>
+	<!-- <item name="MeatPieRecipe" prob="0.075"/> -->
 	<item name="RoastedMeatPieRecipe" prob="0.06"/>
 	<item name="MossyBrewPieRecipe" prob="0.05"/>
 	<item name="MushroomStewRecipe" prob="0.04"/>
@@ -1693,7 +1693,7 @@
 
 <lootgroup name="FoodandDrinkBooks" count="1,3">
 	<item name="BreadRecipe"/>
-	<item name="MeatPieRecipe"/>
+	<!-- <item name="MeatPieRecipe"/> -->
 	<item name="RoastedMeatPieRecipe"/>
 	<item name="MossyBrewPieRecipe"/>
 	<item name="MushroomStewRecipe"/>
@@ -1863,7 +1863,6 @@
 	<item name="potato"/>
 	<item name="blueberries"/>
 	<item name="FishStew"/>
-	<item name="MeatPie"/>
 </lootgroup>
 	
 <lootgroup name="coldfood_rare">
@@ -3361,7 +3360,7 @@
 </lootcontainer>
 
 <!-- Lootcontainer 40 Military Munitions Loot -->
-<lootcontainer id="40" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
+<lootcontainer id="40" count="1,2" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="15" loot_quality_template="baseTemplate">
 	<item group="weaponsMilitaryGuns+ammo" prob="0.2" />
 	<item group="weaponsMilitaryParts" prob="0.1" />
 	<item group="militaryAmmo" prob="0.15" />

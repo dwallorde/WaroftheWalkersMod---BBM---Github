@@ -470,6 +470,8 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="eatFood_28_Trigger" duration="1" actions="increment(CTRfood, 28, 0, 0, 1)"/>
 <buff id="eatFood_29_Trigger" duration="1" actions="increment(CTRfood, 29, 0, 0, 1)"/>
 <buff id="eatFood_30_Trigger" duration="1" actions="increment(CTRfood, 30, 0, 0, 1)"/>
+<buff id="eatFood_43_Trigger" duration="1" actions="increment(CTRfood, 43, 0, 0, 1)"/>
+<buff id="eatFood_52_Trigger" duration="1" actions="increment(CTRfood, 52, 0, 0, 1)"/>
 <buff id="eatFood_78_Trigger" duration="1" actions="increment(CTRfood, 78, 0, 0, 1)"/>
 
 <buff id="metabolizeFoodBuff" buffif="CTRfood > 0" debuffif="CTRfood lequal 0" actions="increment(CTRfood, -1, 1, 0, 0);min(CTRfood, 0)"/>

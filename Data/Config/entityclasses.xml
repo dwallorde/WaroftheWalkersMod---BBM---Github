@@ -1352,7 +1352,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="1000" />
 	<property name="LootListOnDeath" value="112" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieNurseAnneBoss" extends="zombieUMATemplateMale" >
@@ -1360,7 +1360,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="900" />
 	<property name="LootListOnDeath" value="113" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieHousewifeMarianneBoss" extends="zombieUMATemplateMale" >
@@ -1368,7 +1368,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="850" />
 	<property name="LootListOnDeath" value="115" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieBuilderBobBoss" extends="zombieUMATemplateMale" >
@@ -1376,7 +1376,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="1350" />
 	<property name="LootListOnDeath" value="114" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieInvestigatorHenryBoss" extends="zombieUMATemplateMale" >
@@ -1384,7 +1384,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="1500" />
 	<property name="LootListOnDeath" value="116" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieThugBillyBoss" extends="zombieUMATemplateMale" >
@@ -1392,7 +1392,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="1750" />
 	<property name="LootListOnDeath" value="117" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieMasterLeroyBoss" extends="zombieUMATemplateMale" >
@@ -1400,7 +1400,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="1100" />
 	<property name="LootListOnDeath" value="118" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="ZombieAccountantZoeBoss" extends="zombieUMATemplateMale" >
@@ -1408,7 +1408,7 @@
 	<property name="HandItem" value="handBossZombie" />
 	<property name="MaxHealth" value="1050" />
 	<property name="LootListOnDeath" value="119" />
-	<property name="ExperienceGain" value="4500"/>
+	<property name="ExperienceGain" value="5250"/>
 </entity_class>
 
 <entity_class name="SnowZombieLarry" extends="zombieUMATemplateMale" >

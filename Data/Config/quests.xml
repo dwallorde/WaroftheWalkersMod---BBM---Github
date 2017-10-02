@@ -698,12 +698,12 @@
 	repeatable="true"
 	category_key="challenge"
 	difficulty="medium">
-		<objective type="Time" value="900" optional="true" />
+		<!-- <objective type="Time" value="900" optional="true" />
 		<objective type="FetchKeep" id="rawRedMeat" value="10" />
 		<objective type="FetchKeep" id="Dough" value="10" />
 		<objective type="FetchKeep" id="potato" value="5" />
 		<objective type="FetchKeep" id="mushrooms" value="5" />
-		<objective type="Craft" id="MeatPie" value="5" />
+		<objective type="Craft" id="MeatPie" value="5" /> -->
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
@@ -1795,6 +1795,7 @@
 	
 	<quest id="classtrainingbuilder4"
 	name_key="classtrainingbuilder_completion"
+	group_name="BuilderClassTraining"
 	offer_key="classtrainingbuilder_completion_info"
 	description_key="classtrainingbuilder_completion_info"
 	icon="classBuilderLevel3Icon"

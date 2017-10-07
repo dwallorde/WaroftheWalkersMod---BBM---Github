@@ -1390,9 +1390,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rawWhiteMeat" count="1"/>
 </recipe>
 
-<recipe name="ChickenGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
+<!-- Removed V5.1.2 -->
+<!-- <recipe name="ChickenGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
 	<ingredient name="rawWhiteMeat" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="ChickenPotPie" count="1" craft_area="campfire" craft_tool="cookingPot">
     <ingredient name="rawWhiteMeat" count="2" />
@@ -1401,9 +1402,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="corn" count="1" />
 </recipe>
 
-<recipe name="PorkFried" count="1" craft_area="campfire">
+<!-- Removed V5.1.2 -->
+<!-- <recipe name="PorkFried" count="1" craft_area="campfire">
 	<ingredient name="rawWhiteMeat" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="PorkGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
 	<ingredient name="rawWhiteMeat" count="1"/>
@@ -1419,27 +1421,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="1"/>
 </recipe>
 
-<recipe name="RabbitGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
+<!-- Removed V5.1.2 -->
+<!-- <recipe name="RabbitGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
 	<ingredient name="rawRedMeat" count="1"/>
-</recipe>
+</recipe> -->
 
-<recipe name="RabbitBoiled" count="1" craft_area="campfire" craft_tool="cookingPot">
+<!-- Removed V5.1.2 -->
+<!-- <recipe name="RabbitBoiled" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="rawRedMeat" count="1"/>
 	<ingredient name="bottledWater" count="1"/>
-</recipe>
+</recipe> -->
 
-<recipe name="BearGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
+<!-- Removed V5.1.2 -->
+<!-- <recipe name="BearGrilled" count="1" craft_area="campfire" craft_tool="cookingGrill">
 	<ingredient name="rawRedMeat" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="BearBoiled" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="rawRedMeat" count="1"/>
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
-<recipe name="charredMeat" count="1" craft_area="campfire">
+<!-- Removed V5.1.2 -->
+<!-- <recipe name="charredMeat" count="1" craft_area="campfire">
 	<ingredient name="rawRedMeat" count="1"/>
-</recipe>
+</recipe> -->
 
 <!-- <recipe name="grilledMeat" count="1" craft_area="campfire" craft_tool="cookingGrill">
 	<ingredient name="rawRedMeat" count="2"/>

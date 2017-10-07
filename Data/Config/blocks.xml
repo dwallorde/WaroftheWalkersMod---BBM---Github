@@ -3231,6 +3231,7 @@ group desc for stuff like metal siding
 	<property name="Extends" value="porchLight01"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Entities/Lighting/ceilingLight02Prefab"/> <property name="HandleFace" value="Top"/>
+	<drop event="Destroy" name="scrapBrass" count="0"/>
 </block>
 
 <block id="321" name="ceilingLight02Brass">
@@ -12481,6 +12482,7 @@ kind of free
 	</property>
 	<property name="CustomUpgradeSound" value="locking"/>
 	<property name="DowngradeBlock" value="houseFrontDoor1_v1"/>
+	<drop event="Destroy" name="doorKnob" count="0"/>
 	<drop event="Destroy" count="0"/>
 </block>
 
@@ -12504,6 +12506,7 @@ kind of free
 	<property name="OpenSound" value="open_door_wood"/>
 	<property name="CloseSound" value="close_door_wood"/>
 	<property name="DowngradeBlock" value="houseFrontDoor1_v2"/>
+	<drop event="Destroy" name="doorKnob" count="0"/>
 	<drop event="Destroy" count="0"/>
 </block>
 
@@ -12892,6 +12895,7 @@ kind of free
 	<property name="ImposterExchange" value="imposterCTRPlate" param1="70"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="houseFrontDoor2_v2(Unlocked)"/> </property>
 	<property name="DowngradeBlock" value="houseFrontDoor2_v1"/>
+	<drop event="Destroy" name="doorKnob" count="0"/>
 </block>
 
 <block id="1228" name="houseFrontDoor2_v3">
@@ -12905,6 +12909,7 @@ kind of free
 	<property name="ImposterExchange" value="imposterCTRPlate" param1="70"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="houseFrontDoor2_v3(Unlocked)"/> </property>
 	<property name="DowngradeBlock" value="houseFrontDoor2_v2"/>
+	<drop event="Destroy" name="doorKnob" count="0"/>
 </block>
 
 <block id="1229" name="signShopGas">

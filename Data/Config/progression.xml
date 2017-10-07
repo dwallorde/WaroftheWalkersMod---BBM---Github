@@ -1830,16 +1830,6 @@
 	<recipe name="cobblestoneArrowSlitHalf" unlock_level="1"/>
 </perk> -->
 
-<!-- <perk name="HD Nailgun Recipe" icon="ui_game_symbol_nailgun" description_key="HDNailgunRecipeDesc" max_level="1" skill_point_cost_per_level="20" group="tools">
-	<requirement skill_level="1" required_player_level="60"/>
-	<requirement skill_level="1" required_skill_name="Tool Smithing" required_skill_level="75"/>
-	<recipe name="HDNailgun" unlock_level="1"/>
-	<recipe name="HDNailgun_Frame" unlock_level="1"/>
-	<recipe name="HDNailgun_Receiver" unlock_level="1"/>
-	<recipe name="HDNailgun_Parts" unlock_level="1"/>
-	<recipe name="HDNailgun_Battery" unlock_level="1"/>
-</perk> -->
-
 <!-- <perk name="Tailors Workstation" icon="ui_game_symbol_workbench1" description_key="TailorsWorkstationDesc" max_level="1" skill_point_cost_per_level="10" group="crafting">
 	<requirement skill_level="1" required_player_level="25"/>
 	<requirement skill_level="1" required_skill_name="Tailoring" required_skill_level="25"/>
@@ -2764,6 +2754,15 @@
 <perk name="steelClawHammerSchematicPerk" icon="ui_game_symbol_schematic" description_key="schematicPerkGroupDesc" title_key="steelClawHammerSchematicPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
 	<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
 		<recipe name="steelClawHammer" unlock_level="1"/>
+</perk>
+
+<perk name="HDNailgunSchematicPerk" icon="ui_game_symbol_schematic" description_key="schematicPerkGroupDesc" title_key="HDNailgunSchematicPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
+	<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<recipe name="HDNailgun" unlock_level="1"/>
+		<recipe name="HDNailgun_Frame" unlock_level="1"/>
+		<recipe name="HDNailgun_Receiver" unlock_level="1"/>
+		<recipe name="HDNailgun_Parts" unlock_level="1"/>
+		<recipe name="HDNailgun_Battery" unlock_level="1"/>
 </perk>
 
 

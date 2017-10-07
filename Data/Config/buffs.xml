@@ -495,7 +495,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 
 <buff id="MetabolizeBeer" buffif="beers greater 0" debuffif="beers less 1" actions="increment(beers, -1, 100t, 0, 0);min(beers, 0)"/>
 
-<buff id="Soberizing" duration="30" stack="reset" actions="increment(beers, -10, 0, 0, 1)" icon="SoberizingBuffIcon">
+<buff id="Soberizing" name_key="Soberizing" description_key="SoberizingDesc" tooltip_key="SoberizingTooltip" duration="30" stack="reset" actions="increment(beers, -10, 0, 0, 1)" icon="SoberizingBuffIcon">
 	<modify id="0" stat="stamina" amount="2" rate="5"/>
 </buff>
 

@@ -2617,7 +2617,7 @@
 </lootgroup>
 
 <lootgroup name="rabbitTrap" count="all">
-	<item name="RabbitRaw" count="3"/>
+	<item name="rawRedMeat" count="1,2"/>
 	<item name="animalHide" count="2"/>
 </lootgroup>
 
@@ -3105,6 +3105,7 @@
 	<item name="flashlight02" prob="0.15" />
 	<item group="QuestChain" count="1" prob="0.01" />
 	<item group="QuestChallenge" count="1" prob="0.05" />
+	<item name="ClassPaperProtection" count="1" prob="0.025" />
 </lootcontainer>
 
 <!-- Lootcontainer 7 Medicine Cabinet Loot -->
@@ -3196,6 +3197,7 @@
 <lootcontainer id="19" count="0,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="baseTemplate">
 	<item group="automotive+tools+junk"/>
 	<item name="miningHelmet" prob="0.035"/>
+	<item name="ClassPaperTradesman" prob="0.04"/>
 </lootcontainer>
 
 <!-- Lootcontainer 20 Free (Old AC Units) -->
@@ -3478,14 +3480,14 @@
 	<item name="scrapPlastics" count="1,6" prob="0.15" />
 	<item group="WeaponParts" prob="0.5" />
 	<item group="WeaponAttachments" prob="0.4" />
-	<item name="ClassPaperMarksman" prob="0.15" />
+	<item name="ClassPaperMarksman" prob="0.075" />
 </lootcontainer>
 
 <!-- Lootcontainer 51 Pop n Pills Pillcase Loot -->
 <lootcontainer id="51" count="0,2" size="5,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="baseTemplate">
 	<item group="medicine" />
 	<item name="scrapPlastics" count="1,2" prob="0.15" />
-	<item name="ClassPaperSurvivalist" prob="0.045" />
+	<item name="ClassPaperSurvivalist" prob="0.0375" />
 </lootcontainer>
 
 <!-- Lootcontainer 52 Beverage Cooler Loot -->
@@ -3556,7 +3558,7 @@
 	<item name="shamSandwich" count="1,3" />
 	<item name="Yeast" count="2,6" prob="0.3" />
 	<item name="scrapPlastics" count="1,8" prob="0.25" />
-	<item name="ClassPaperSurvivalist" prob="0.12" />
+	<item name="ClassPaperSurvivalist" prob="0.075" />
 </lootcontainer>
 
 <!-- Lootcontainer 60 Bookstore Bookcase Loot -->
@@ -4067,7 +4069,7 @@
    	<item group="ammo" count="1,2" />
 </lootcontainer>
 
-<!-- Lootcontainer 109 Supply Crate General Air Drop Supply Loot -->
+<!-- Lootcontainer 109 Supply Crate General Loot -->
 <lootcontainer id="109" count="1,4" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
    	<item group="airdropMedicine" count="1" prob="0.075" />
 	<item group="Armor" prob="0.2" />
@@ -4249,6 +4251,11 @@
 	<item group="medicine" count="1" prob="0.5"/>
 	<item group="beverages" count="1" prob="0.5"/>
 	<item group="weaponsPistol+ammo" count="1" prob="0.3"/>
+</lootcontainer>
+
+<!-- Lootcontainer 141 Player Made Generic Storage Container -->
+<lootcontainer id="141" count="0" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+	<item name="cobweb" count="1,2"/>
 </lootcontainer>
 
 </lootcontainers>

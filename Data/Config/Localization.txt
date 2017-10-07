@@ -6134,6 +6134,7 @@ AppleJuiceRecipePerk,progression,Skill,KgNone,Apple Juice Recipe (Class Only),,,
 RoastedMeatPieRecipePerk,progression,Skill,KgNone,Roasted Meat Pie Recipe,,,,
 MossyBrewPieRecipePerk,progression,Skill,KgNone,Mossy Brew Recipe,,,,
 MushroomStewRecipePerk,progression,Skill,KgNone,Mushroom Stew Recipe,,,,
+HDNailgunSchematicPerk,progression,Skill,KgNone,HD Nailgun Schematic,,,,
 steelClawHammerSchematicPerk,progression,Skill,KgNone,Steel Claw Hammer Schematic,,,,
 steelClawHammerSchematic,items,Item,KgNone,Steel Claw Hammer Schematic,,,,
 steelClawHammerSchematicDesc,items,Item,KgNone,"Learn how to craft a Steel Claw Hammer.  The Steel Claw Hammer can upgrade some blocks faster with fewer hits","Apprenez à fabriquer un marteau à griffes en acier. The Steel Claw Hammer peut améliorer certains blocs plus rapidement avec moins de hits","Erfahren Sie, wie man einen Stahlklauenhammer herstellt. Der Steel Claw Hammer kann einige Blöcke schneller mit weniger Hits aufrüsten",,"Aprenda cómo hacer un martillo de acero. El Steel Claw Hammer puede actualizar algunos bloques más rápido con menos impactos"
@@ -6149,3 +6150,6 @@ militaryHelmetLight,items,Item,KgNone,Military Helmet (Light),,,,
 KevlarHelmetLight,items,Item,KgNone,Kevlar Helmet (Light),,,,
 SteelHelmetLight,items,Item,KgNone,Steel Helmet (Light),,,,
 TungstenHelmetLight,items,Item,KgNone,Tungsten Helmet (Light),,,,
+Soberizing,buffs,Buff,KgNone,Soberizing,,,,
+SoberizingDesc,buffs,Buff,KgNone,"You took something that will help you get sober","Vous avez pris quelque chose qui vous aidera à devenir sobre.","Du hast etwas genommen, das dir helfen wird, nüchtern zu werden",,"Tomaste algo que te ayudará a ponerte sobrio"
+SoberizingTooltip,buffs,Buff,KgNone,"You are soberizing","Vous êtes en train de soigner","Sie sind ernüchternd",,"Estás sobria"

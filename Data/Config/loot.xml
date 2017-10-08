@@ -3294,7 +3294,7 @@
 </lootcontainer>
 
 <!-- Lootcontainer 34 Supply Crate General -->
-<lootcontainer id="34" count="1" size="8,4" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
+<lootcontainer id="34" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
 	<item group="BuildingDrop" count="1" prob="0.4" />
 	<item group="WeaponsDrop" count="1" prob="0.3" />
 	<item group="SurvivalDrop" count="1" prob="0.35" />

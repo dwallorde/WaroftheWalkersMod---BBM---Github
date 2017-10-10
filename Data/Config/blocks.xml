@@ -9338,6 +9338,7 @@ kind of free
 	<property name="Model" value="LootContainers/backpack01" param1="main_mesh"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LootList" value="140"/>
+	<drop event="Destroy" count="0"/>
 	<!-- >
 	<drop event="Harvest" name="cloth" count="2"/>
 	<drop event="Destroy" name="cloth" count="1"/>
@@ -9353,7 +9354,8 @@ kind of free
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="LootContainers/backpack02" param1="main_mesh"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="140"/>
+	<property name="LootList" value="141"/>
+	<drop event="Destroy" count="0"/>
 	<!-- >
 	<drop event="Harvest" name="cloth" count="2"/>
 	<drop event="Destroy" name="cloth" count="1"/>
@@ -10036,6 +10038,7 @@ kind of free
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+	<property name="RandomTintColor1" value="0,0,255"/>
 	<property class="Workstation">
 		<property name="CraftingAreaRecipes" value="WeaponSmithStation"/>
 		<property name="Modules" value="tools,output,fuel,material_input"/>
@@ -10076,6 +10079,7 @@ kind of free
 	<property name="HeatMapStrength" value="0.25"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
+	<property name="RandomTintColor1" value="0,0,255"/>
 	<property class="Workstation">
 		<property name="Modules" value="tools,output,fuel,input"/>
 		<property name="CraftingAreaRecipes" value="BlueprintWorkStation"/>
@@ -10118,6 +10122,7 @@ kind of free
 	<property name="RecipeList" value="backpack, TailorsWorkStation"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1" />
+	<property name="RandomTintColor1" value="102,51,153"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="TailorsWorkStation"/>
@@ -10206,6 +10211,7 @@ kind of free
 	<property name="CraftingAreaRecipes" value="MortarandPestle"/>
 	<property name="Modules" value="output,input"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket" />
+	<property name="RandomTintColor1" value="0,0,0"/>
 	</property>
 	<property class="RepairItems">
 		<property name="scrapIron" value="40"/>
@@ -10245,6 +10251,7 @@ kind of free
 	<!-- <property name="RecipeList" value="backpack, workbench"/> -->
 	<!-- <property name="CraftTimeMultiplier" value="0.5,1"/> -->
 	<property name="Stacknumber" value="1" />
+	<property name="RandomTintColor1" value="0,128,0"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="ArmorSmithingWorkbench" />
@@ -10286,6 +10293,7 @@ kind of free
 	<!--<property name="RecipeList" value="backpack, workbench"/>-->
 	<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+	<property name="RandomTintColor1" value="165,42,42"/>
 	<property class="RepairItems"> <property name="forgedIron" value="35" /> <property name="wood" value="50" /> </property>
 	<property class="Workstation">
 	<property name="Modules" value="output"/>
@@ -10316,6 +10324,7 @@ kind of free
 	<!--<property name="RecipeList" value="backpack, workbench"/>-->
 	<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+	<property name="RandomTintColor1" value="66,16,16"/>
 	<property class="RepairItems"> <property name="forgedIron" value="35" /> <property name="wood" value="50" /> </property>
 	<property class="Workstation">
 	<property name="Modules" value="output"/>
@@ -10382,7 +10391,7 @@ kind of free
 <block id="982" name="plantedAppleTree2">
 	<property name="Extends" value="cropsGrowingMaster" />
 	<property name="CustomIcon" value="SeedApplePacket" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
     <property name="Material" value="plantedWood" />
     <property name="Shape" value="ModelEntity" />
     <property name="Texture" value="116" />
@@ -10425,6 +10434,7 @@ kind of free
 	<property name="RecipeList" value="backpack, ClothingWorkStation"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1" />
+	<property name="RandomTintColor1" value="0,0,255"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="ClothingWorkStation"/>
@@ -10782,12 +10792,7 @@ kind of free
 </block>
 
 <block id="1015" name="RabbitTrap(Baited)">
-	<property name="Class" value="PlantGrowing" />
-	<property name="PlantGrowing.FertileLevel" value="1" />
-	<property name="PlantGrowing.GrowthRate" value="60" />
-	<property name="PlantGrowing.LightLevelStay" value="0" />
-	<property name="PlantGrowing.IsRandom" value="true" />
-	<property name="PlantGrowing.GrowIfAnythinOnTop" value="false" />
+	<property name="Extends" value="cropsGrowingMaster" />
 	<property name="CustomIcon" value="RabbitTrap" />
     <property name="Material" value="wood" />
     <property name="Shape" value="Ext3dModel" />
@@ -11690,7 +11695,7 @@ kind of free
 
 <block id="1091" name="classBlock">
 	<property name="CustomIcon" value="steelMaster" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Material" value="classBlock" />
 	<property name="Texture" value="355,356,267,267,267,267" />
 	<property class="RepairItems"> <property name="wood" value="1" /> </property>

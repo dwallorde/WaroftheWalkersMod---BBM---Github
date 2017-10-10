@@ -1560,12 +1560,14 @@
 	<recipe name="clubBarbed" unlock_level="2"/>
 </perk>
 
-<perk name="Pistol Recipe" icon="pistol" description_key="PistolRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="Pistol Recipe" icon="pistol" description_key="PistolRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<recipe name="gunPistol" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="Pistol Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="4" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel1" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="pistolBookPerk" required_skill_level="1"/>
 	<recipe name="partsPistol_parts" unlock_level="1"/>
 	<recipe name="partsPistol_barrel" unlock_level="1"/>
 	<recipe name="partsPistol_receiver" unlock_level="1"/>
@@ -1573,50 +1575,59 @@
 </perk>
 
 <perk name="Pistol Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="4" group="firearms">
-	<requirement skill_level="1" required_skill_name="Pistol Recipe" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel1" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="pistolBookPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="10"/>
 	<recipe name="PistolSilenced" unlock_level="1"/>
 	<recipe name="PistolExtendedMag" unlock_level="2"/>
 	<recipe name="PistolExtendedMagSilenced" unlock_level="3"/>
 </perk>
 
-<perk name="Hunting Rifle Recipe" icon="rifle" description_key="HuntingRifleRecipeDesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="Hunting Rifle Recipe" icon="rifle" description_key="HuntingRifleRecipeDesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_player_level="15"/>
 	<recipe name="gunHuntingRifle" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="Hunting Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel1" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="huntingRifleSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsHuntingRifle_barrel" unlock_level="1"/>
 	<recipe name="partsHuntingRifle_stock" unlock_level="1"/>
 	<recipe name="partsHuntingRifle_receiver" unlock_level="1"/>
 	<recipe name="partsHuntingRifle_parts" unlock_level="1"/>
 </perk>
 
-<perk name="SawedOff Pump Shotgun Recipe" icon="shotgun" description_key="SawedOffPumpShotgunRecipeDesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="SawedOff Pump Shotgun Recipe" icon="shotgun" description_key="SawedOffPumpShotgunRecipeDesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_player_level="20"/>
 	<recipe name="gunSawedOffPumpShotgun" unlock_level="1"/>
-</perk>
+</perk> -->
 
-<perk name="SawedOff Pump Shotgun Parts Recipe" icon="ui_game_symbol_shotgunparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="SawedOff Pump Shotgun Parts Recipe" icon="ui_game_symbol_shotgunparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel1" required_skill_level="1"/>
 	<recipe name="partsPumpShotgun_barrelShort" unlock_level="1"/>
 	<recipe name="partsPumpShotgun_receiver" unlock_level="1"/>
 	<recipe name="partsPumpShotgun_parts" unlock_level="1"/>
 	<recipe name="partsPumpShotgun_stockShort" unlock_level="1"/>
-</perk>
+</perk> -->
 
-<perk name="Pump Shotgun Recipe" icon="shotgun" description_key="PumpShotgunRecipeDesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="Pump Shotgun Recipe" icon="shotgun" description_key="PumpShotgunRecipeDesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_player_level="25"/>
 	<recipe name="gunPumpShotgun" unlock_level="1"/>
-</perk>
+</perk> -->
 
-<perk name="Pump Shotgun Parts Recipe" icon="ui_game_symbol_shotgunparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
-	<requirement skill_level="1" required_skill_name="MarksmanClassLevel2" required_skill_level="1"/>
+<perk name="SawedOff Pump Shotgun Parts Recipe" icon="ui_game_symbol_shotgunparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel1" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="pumpShotgunSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsPumpShotgun_barrel" unlock_level="1"/>
 	<recipe name="partsPumpShotgun_receiver" unlock_level="1"/>
 	<recipe name="partsPumpShotgun_parts" unlock_level="1"/>
 	<recipe name="partsPumpShotgun_stock" unlock_level="1"/>
+	<recipe name="partsPumpShotgun_barrelShort" unlock_level="1"/>
+	<recipe name="partsPumpShotgun_stockShort" unlock_level="1"/>
 </perk>
 
 <perk name="Remington8 Recipe" icon="ui_game_symbol_remington8" description_key="Remington8RecipeDesc" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms">
@@ -1632,7 +1643,7 @@
 </perk>
 
 <perk name="Remington8 Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="4" group="firearms">
-	<requirement skill_level="1" required_skill_name="Remington8 Recipe" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel2" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="35"/>
 	<recipe name="Remington8Scoped" unlock_level="1"/>
 	<recipe name="Remington8ExtendedMag" unlock_level="2"/>
@@ -1652,39 +1663,45 @@
 	<recipe name="DesertEagle_Parts" unlock_level="1"/>
 </perk>
 
-<perk name="44 Magnum Recipe" icon="ui_game_symbol_44magnum" description_key="44MagnumRecipeDesc" max_level="1" skill_point_cost_per_level="15" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="44 Magnum Recipe" icon="ui_game_symbol_44magnum" description_key="44MagnumRecipeDesc" max_level="1" skill_point_cost_per_level="15" group="firearms">
 	<requirement skill_level="1" required_player_level="45"/>
 	<recipe name="gun44Magnum" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="44 Magnum Parts Recipe" icon="ui_game_symbol_44magnumparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel2" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="theEnforcerMagazinePerk" required_skill_level="1"/>
 	<recipe name="parts44Magnum_frame" unlock_level="1"/>
 	<recipe name="parts44Magnum_cylinder" unlock_level="1"/>
 	<recipe name="parts44Magnum_parts" unlock_level="1"/>
 	<recipe name="parts44Magnum_grip" unlock_level="1"/>
 </perk>
 
-<perk name="MP5 Recipe" icon="ui_game_symbol_mp5" description_key="MP5RecipeDesc" max_level="1" skill_point_cost_per_level="20" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="MP5 Recipe" icon="ui_game_symbol_mp5" description_key="MP5RecipeDesc" max_level="1" skill_point_cost_per_level="20" group="firearms">
 	<requirement skill_level="1" required_player_level="50"/>
 	<recipe name="gunMP5" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="MP5 Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="smgSchematicsPerk" required_skill_level="1"/>
 	<recipe name="partsMP5_stock" unlock_level="1"/>
 	<recipe name="partsMP5_receiver" unlock_level="1"/>
 	<recipe name="partsMP5_barrel" unlock_level="1"/>
 	<recipe name="partsMP5_parts" unlock_level="1"/>
 </perk>
 
-<perk name="Sniper Rifle Recipe" icon="ui_game_symbol_sniperrifle" description_key="SniperRifleRecipeDesc" max_level="1" skill_point_cost_per_level="20" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="Sniper Rifle Recipe" icon="ui_game_symbol_sniperrifle" description_key="SniperRifleRecipeDesc" max_level="1" skill_point_cost_per_level="20" group="firearms">
 	<requirement skill_level="1" required_player_level="60"/>
 	<recipe name="gunSniperRifle" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="Sniper Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="sniperRifleSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsSniperRifle_barrel" unlock_level="1"/>
 	<recipe name="partsSniperRifle_receiver" unlock_level="1"/>
 	<recipe name="partsSniperRifle_stock" unlock_level="1"/>
@@ -1692,7 +1709,8 @@
 </perk>
 
 <perk name="Sniper Rifle Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="2" skill_point_cost_per_level="5" group="firearms">
-	<requirement skill_level="1" required_skill_name="Sniper Rifle Recipe" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="sniperRifleSchematicPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="65"/>
 	<recipe name="SniperRifleLongScoped" unlock_level="1"/>
 	<recipe name="SniperRifleSilenced" unlock_level="2"/>
@@ -1712,20 +1730,22 @@
 </perk>
 
 <perk name="FAMAS Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="5" group="firearms">
-	<requirement skill_level="1" required_skill_name="FAMAS Recipe" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="75"/>
 	<recipe name="FAMASExtendedMag" unlock_level="1"/>
 	<recipe name="FAMASSilenced" unlock_level="2"/>
 	<recipe name="FAMASExtendedMagSilenced" unlock_level="3"/>
 </perk>
 
-<perk name="AK47 Recipe" icon="ui_game_symbol_ak47" description_key="AK47RecipeDesc" max_level="1" skill_point_cost_per_level="25" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="AK47 Recipe" icon="ui_game_symbol_ak47" description_key="AK47RecipeDesc" max_level="1" skill_point_cost_per_level="25" group="firearms">
 	<requirement skill_level="1" required_player_level="80"/>
 	<recipe name="gunAK47" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="AK47 Parts Recipe" icon="ui_game_symbol_ak47parts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="ak47SchematicPerk" required_skill_level="1"/>
 	<recipe name="partsAK47_stock" unlock_level="1"/>
 	<recipe name="partsAK47_receiver" unlock_level="1"/>
 	<recipe name="partsAK47_barrel" unlock_level="1"/>
@@ -1733,7 +1753,8 @@
 </perk>
 
 <perk name="AK47 Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="5" group="firearms">
-	<requirement skill_level="1" required_skill_name="AK47 Recipe" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="ak47SchematicPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="85"/>
 	<recipe name="AK47ExtendedMag" unlock_level="1"/>
 	<recipe name="AK47Scoped" unlock_level="2"/>
@@ -1767,20 +1788,22 @@
 </perk>
 
 <perk name="M25 Sniper Rifle Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="5" group="firearms">
-	<requirement skill_level="1" required_skill_name="M25 Sniper Rifle Recipe" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="105"/>
 	<recipe name="M25SniperRifleLongScoped" unlock_level="1"/>
 	<recipe name="M25SniperRifleExtendedMagazine" unlock_level="2"/>
 	<recipe name="M25SniperRifleLongScopedExtendedMagazine" unlock_level="3"/>
 </perk>
 
-<perk name="Rocket Launcher Recipe" icon="ui_game_symbol_rocketlauncher" description_key="RocketLauncherRecipeDesc" max_level="1" skill_point_cost_per_level="25" group="firearms">
+<!-- Removed V5.1.3 -->
+<!-- <perk name="Rocket Launcher Recipe" icon="ui_game_symbol_rocketlauncher" description_key="RocketLauncherRecipeDesc" max_level="1" skill_point_cost_per_level="25" group="firearms">
 	<requirement skill_level="1" required_player_level="110"/>
 	<recipe name="gunRocketLauncher" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <perk name="Rocket Launcher Parts Recipe" icon="ui_game_symbol_rocketlauncherparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="MarksmanClassLevel3" required_skill_level="1"/>
+	<requirement skill_level="1" required_skill_name="rocketLauncherSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsRocketLauncher_stock" unlock_level="1"/>
 	<recipe name="partsRocketLauncher_receiver" unlock_level="1"/>
 	<recipe name="partsRocketLauncher_parts" unlock_level="1"/>

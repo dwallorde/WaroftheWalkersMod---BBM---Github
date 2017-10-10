@@ -6051,8 +6051,6 @@ plantedBlackberry1,blocks,Block,KgNone,Blackberry Seed,,,,
 plantedStrawberry1,blocks,Block,KgNone,Strawberry Seed,,,,
 handWeeder,items,Item,KgNone,Hand Weeder,,,,
 handWeederDesc,items,Item,KgNone,"A Hand Weeder can be used to quickly clear out grass.  Also has a chance to harvest berries from grass and small bushes.","Un Hand Weeder peut être utilisé pour éliminer rapidement l'herbe. A également une chance de récolter des baies de l'herbe et des petits buissons.","Ein Hand-Weeder kann verwendet werden, um schnell Gras zu löschen Auch hat eine Chance, Beeren aus Gras und kleinen Büschen zu ernten.",,"Un Weeder mano se puede utilizar para eliminar rápidamente la hierba. También tiene la oportunidad de cosechar bayas de hierba y arbustos pequeños."
-swatHelmetLight,items,Item,KgNone,Swat Helmet (Light),,,,
-swatHelmetLightDesc,items,Item,KgNone,"A Swat Helmet with a light attached\n [ Crafted in AdvancedToolWorkbench. ]","Un casque Swat avec une lumière attachée","Ein Swat Helm mit einem Licht befestigt",,"Un casco Swat con una luz adjunta"
 strawberryJam,items,Item,KgNone,Strawberry Jam,,,,
 strawberryJamDesc,items,Item,KgNone,"Home made Strawberry Jam can be eaten alone for food and wellness gain or crafted into a Strawberry Jam Sandwich","Le confiture de fraises maison peut être consommée seule pour gagner de la nourriture et du bien-être ou fabriquée dans un Sandwich aux fraises","Home made Strawberry Jam kann allein gegessen werden für Essen und Wellness gewinnen oder in ein Strawberry Jam Sandwich gefertigt",,"El atasco hecho en casa de la fresa se puede comer solo para la ganancia del alimento y del bienestar o ser hecho a mano en un emparedado del atasco de la fresa"
 strawberryJamSandwich,items,Item,KgNone,Strawberry Jam Sandwich,,,,
@@ -6153,3 +6151,4 @@ TungstenHelmetLight,items,Item,KgNone,Tungsten Helmet (Light),,,,
 Soberizing,buffs,Buff,KgNone,Soberizing,,,,
 SoberizingDesc,buffs,Buff,KgNone,"You took something that will help you get sober","Vous avez pris quelque chose qui vous aidera à devenir sobre.","Du hast etwas genommen, das dir helfen wird, nüchtern zu werden",,"Tomaste algo que te ayudará a ponerte sobrio"
 SoberizingTooltip,buffs,Buff,KgNone,"You are soberizing","Vous êtes en train de soigner","Sie sind ernüchternd",,"Estás sobria"
+swatHelmetLightDesc,items,Item,KgNone,"A Swat Helmet with a light attached\n [ Crafted in AdvancedToolWorkbench. ]","Un casque Swat avec une lumière attachée","Ein Swat Helm mit einem Licht befestigt",,"Un casco Swat con una luz adjunta"

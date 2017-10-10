@@ -1861,7 +1861,7 @@ Mesh files no longer used:
 		<property name="Upgrade_hit_offset" value="-2"/>
 		<property name="Sound_start" value="repair_block"/>
 		<!-- <property name="Allowed_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan"/> -->
-		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan"/>
+		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron"/>
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,10"/>
@@ -10959,11 +10959,11 @@ Mesh files no longer used:
     <property name="MeltTimePerUnit" value="0.1" />
     <property name="UserHidden" value="true" />
 	<property name="CraftingIngredientTime" value="0.15" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 </item>
 
 <item id="1561" name="unit_copper">
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="unit_iron" />
     <property name="CustomIcon" value="scrapIron" />
 	<property name="CustomIconTint" value="00FBB5" />
@@ -15310,7 +15310,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1865" name="clubMaster1">
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Candrop" value="false"/>
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BranchPrefab" />
 	<property name="Material" value="wood" />
@@ -15348,7 +15348,8 @@ Mesh files no longer used:
 
 <item id="1866" name="BanditclubSpiked">
 	<property name="Extends" value="clubMaster1" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CustomIcon" value="clubSpiked"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Candrop" value="false"/>
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_SpikedPrefab" />
 </item>
@@ -15364,16 +15365,16 @@ Mesh files no longer used:
 		<property name="Reload_time" value="0.1" />
 	</property>
 	<property name="Candrop" value="false" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 </item>
 
 <item id="1868" name="Bandit9mmBullet">
 	<property name="Extends" value="9mmBullet" />
 	<property name="Candrop" value="false" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 </item> -->
 
-<item id="1867" name="gunBanditPistol">
+<!-- <item id="1867" name="gunBanditPistol">
 	<property name="CustomIcon" value="gunPistol"/>
     <property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
@@ -15423,17 +15424,73 @@ Mesh files no longer used:
 		<property name="Zoom_max_in" value="35"/>
 	</property>
 	<property name="LightValue" value="0.45"/>
-  </item>
+</item> -->
+
+<item id="1867" name="gunBanditPistol">
+	<property name="CustomIcon" value="gunPistol"/>
+    <property name="Candrop" value="false"/>
+	<property name="IsDeveloper" value="true"/>
+	<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/PistolPrefab"/>
+	<property name="Material" value="metal"/>
+	<property name="RepairTools" value="repairKit"/>
+	<property name="HoldType" value="1"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="flashlight02"/>
+	<property name="CrosshairOnAim" value="false"/> 
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="pistol_sight_in"/>
+	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+	<property class="Action0">
+	<property name="Class" value="Ranged"/>
+	<property name="Delay" value="0.2"/>
+	<property name="Crosshair_min_distance" value="5"/>
+	<property name="Crosshair_max_distance" value="6"/>
+	<property name="Magazine_size" value="15"/>
+	<property name="Magazine_items" value="9mmBanditBullet"/>
+	<property name="Magazine_item_ray_counts" value="1"/>
+	<property name="Magazine_item_ray_spreads" value="0.85"/>
+	<property name="Reload_time" value="2"/>
+	<property name="Bullet_icon" value="pistol"/>
+	<property name="Sound_start" value="Pistol_Fire"/>
+	<property name="Sound_repeat" value=""/>
+	<property name="Sound_end" value=""/>
+	<property name="Sound_empty" value="weapon_empty"/>
+	<property name="Sound_reload" value="pistol_reload"/>
+		<property name="Particles_muzzle_fire" value="nozzleflash"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
+		<property name="DamageBonus.head" value="6"/>
+		<property name="DamageBonus.wood" value="3"/>
+		<property name="DamageBonus.earth" value="0.4"/>
+		<property name="DamageBonus.glass" value="1"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="35"/>
+		<property name="Zoom_max_in" value="35"/>
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="11.4,19"/>
+		<property name="BlockDamage" value="5,13"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="22,50"/>
+		<property name="DegradationMax" value="2000,5000"/>
+		<property name="DegradationRate" value="10,10"/>
+	</property>
+	<property name="LightValue" value="0.45"/>
+</item>
 
 <item id="1868" name="9mmBanditBullet">
 	<property name="Extends" value="9mmBullet" />
+	<property name="CustomIcon" value="9mmBullet"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
 </item>
 
 <item id="1869" name="BanditMachete">
-	<property name="IsDeveloper" value="true" />
+	<property name="CustomIcon" value="machete"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="machete" />
 	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab" />
 	<property name="Material" value="metal" />
@@ -15573,7 +15630,7 @@ Mesh files no longer used:
 <!-- <item id="1878" name="RestReset">
 	<property name="CustomIcon" value="vitamins" />
     <property name="CustomIconTint" value="008000" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
     <property name="Meshfile" value="Items/Health/painkillersPrefab" />
     <property name="Material" value="organic" />
     <property name="HoldType" value="16" />
@@ -15978,7 +16035,8 @@ Mesh files no longer used:
 
 <item id="1899" name="clubBarbedBandit">
 	<property name="Extends" value="clubBarbed" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CustomIcon" value="clubBarbed"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BarbedPrefab" />
 	<property name="DegradationBreaksAfter" value="true" />
@@ -15999,23 +16057,17 @@ Mesh files no longer used:
 </item>
 
 <item id="1900" name="gun44MagnumBandit">
+	<property name="CustomIcon" value="gun44Magnum"/>
 	<property name="Candrop" value="false"/>
-	<property name="IsDeveloper" value="true"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44MagnumPrefab"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>
 	<property name="HoldType" value="44"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	<property class="Parts">
-		<property name="Stock" value="parts44Magnum_grip"/>
-		<property name="Receiver" value="parts44Magnum_cylinder"/>
-		<property name="Pump" value="parts44Magnum_parts"/>
-		<property name="Barrel" value="parts44Magnum_frame"/>
-	</property>
 	<property name="Sound_Sight_In" value="revolver_sight_in"/>
 	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
 	<property class="Action0">
@@ -16038,7 +16090,7 @@ Mesh files no longer used:
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.wood" value="4"/>
-		<property name="DamageBonus.earth" value=".2"/>
+		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->
@@ -16046,11 +16098,20 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="27.5,78"/>
+		<property name="BlockDamage" value="4,8"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="30,50"/>
+		<property name="DegradationMax" value="4000,12500"/>
+		<property name="DegradationRate" value="20,34"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1901" name="44MagBulletBandit">
 	<property name="Extends" value="44MagBullet" />
+	<property name="CustomIcon" value="44MagBullet"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
@@ -16058,7 +16119,8 @@ Mesh files no longer used:
 
 <item id="1902" name="gunHuntingRifleBandit">
 	<property name="Candrop" value="false"/>
-	<property name="IsDeveloper" value="true"/>
+	<property name="CustomIcon" value="gunHuntingRifle"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/HuntingRiflePrefab"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>
@@ -16066,15 +16128,8 @@ Mesh files no longer used:
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="FuelValue" value="32"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	<property class="Parts">
-		<property name="Stock" value="partsHuntingRifle_stock"/>
-		<property name="Receiver" value="partsHuntingRifle_receiver"/>
-		<property name="Pump" value="partsHuntingRifle_parts"/>
-		<property name="Barrel" value="partsHuntingRifle_barrel"/>
-	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16105,11 +16160,20 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="55,90"/>
+		<property name="BlockDamage" value="1,5"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="96,160"/>
+		<property name="DegradationMax" value="2500,6250"/>
+		<property name="DegradationRate" value="10,15"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1903" name="huntingKnifeBandit">
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="huntingKnife"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knifePrefab" />
 	<property name="Material" value="metal" />
@@ -16140,7 +16204,8 @@ Mesh files no longer used:
 </item>
 
 <item id="1904" name="gunMP5Bandit">
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="gunMP5"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Ranged/MP5/MP5Prefab"/>
 	<property name="Material" value="metal"/>
@@ -16148,16 +16213,9 @@ Mesh files no longer used:
 	<property name="HoldType" value="6"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="TintColor" value="255,255,255"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	<property class="Parts">
-		<property name="Stock" value="partsMP5_stock"/>
-		<property name="Receiver" value="partsMP5_receiver"/>
-		<property name="Pump" value="partsMP5_parts"/>
-		<property name="Barrel" value="partsMP5_barrel"/>
-	</property>
 	<property name="Sound_Sight_In" value="smg_sight_in"/>
 	<property name="Sound_Sight_Out" value="smg_sight_out"/>
 	<property class="Action0">
@@ -16193,12 +16251,20 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="11.4,19"/>
+		<property name="BlockDamage" value="5,13"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="40,72"/>
+		<property name="DegradationMax" value="5600,14000"/>
+		<property name="DegradationRate" value="13,18"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <!-- Remove -->
-<item id="1905" name="10mmBulletBandit">
-	<property name="IsDeveloper" value="true" />
+<!-- <item id="1905" name="10mmBulletBandit">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/10mm_bulletPrefab" />
 	<property name="Material" value="brass" />
@@ -16215,10 +16281,11 @@ Mesh files no longer used:
 		<property name="FlyTime" value="1.2" />
 		<property name="LifeTime" value="8" />
 	</property>
-</item>
+</item> -->
 
 <item id="1906" name="gunAK47Bandit">
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="gunAK47"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Ranged/ak47/ak47Prefab"/>
 	<property name="Material" value="metal"/>
@@ -16226,15 +16293,8 @@ Mesh files no longer used:
 	<property name="HoldType" value="48"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	<property class="Parts">
-		<property name="Stock" value="partsAK47_stock"/>
-		<property name="Receiver" value="partsAK47_receiver"/>
-		<property name="Pump" value="partsAK47_parts"/>
-		<property name="Barrel" value="partsAK47_barrel"/>
-	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16271,11 +16331,20 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="50,90"/>
+		<property name="BlockDamage" value="1,5"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="54,90"/>
+		<property name="DegradationMax" value="5600,14000"/>
+		<property name="DegradationRate" value="12,16"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1907" name="gunSawedOffPumpShotgunBandit">
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="gunSawedOffPumpShotgun"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/SawedOffPumpShotgunPrefab"/>
 	<property name="Material" value="metal"/>
@@ -16283,17 +16352,10 @@ Mesh files no longer used:
 	<property name="HoldType" value="5"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
-	<property class="Parts">
-		<property name="Stock" value="partsPumpShotgun_stockShort"/>
-		<property name="Receiver" value="partsPumpShotgun_receiver"/>
-		<property name="Pump" value="partsPumpShotgun_parts"/>
-		<property name="Barrel" value="partsPumpShotgun_barrelShort"/>
-	</property>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value="0.8"/>
@@ -16324,11 +16386,20 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="40"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="6,10"/>
+		<property name="BlockDamage" value="5.4,13.5"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="36,60"/>
+		<property name="DegradationMax" value="1800,4500"/>
+		<property name="DegradationRate" value="9,9"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1908" name="gunPumpShotgunBandit">
-	<property name="IsDeveloper" value="true" />
+	<property name="CustomIcon" value="gunPumpShotgun"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab"/>
 	<property name="Material" value="metal"/>
@@ -16336,17 +16407,10 @@ Mesh files no longer used:
 	<property name="HoldType" value="5"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
-	<property class="Parts">
-		<property name="Stock" value="partsPumpShotgun_stock"/>
-		<property name="Receiver" value="partsPumpShotgun_receiver"/>
-		<property name="Pump" value="partsPumpShotgun_parts"/>
-		<property name="Barrel" value="partsPumpShotgun_barrel"/>
-	</property>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value="0.8"/>
@@ -16377,18 +16441,28 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="40"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="35,75"/>
+		<property name="BlockDamage" value="15,25"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="36,60"/>
+		<property name="DegradationMax" value="1800,4500"/>
+		<property name="DegradationRate" value="9,9"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1909" name="shotgunShellBandit">
 	<property name="Extends" value="shotgunShell" />
+	<property name="CustomIcon" value="shotgunShell"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
 </item>
 
 <item id="1910" name="gunSniperRifleBandit">
-	<property name="IsDeveloper" value="true" />
+	<property name="CustomIcon" value="gunSniperRifle"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Candrop" value="false" />
 	<property name="Meshfile" value="Items/Weapons/Ranged/SniperRifle/sniperRiflePrefab"/>
 	<property name="Material" value="metal"/>
@@ -16396,15 +16470,8 @@ Mesh files no longer used:
 	<property name="HoldType" value="11"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	<property class="Parts">
-		<property name="Stock" value="partsSniperRifle_stock"/>
-		<property name="Receiver" value="partsSniperRifle_receiver"/>
-		<property name="Pump" value="partsSniperRifle_parts"/>
-		<property name="Barrel" value="partsSniperRifle_barrel"/>
-	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16436,17 +16503,27 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="15"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="55,90"/>
+		<property name="BlockDamage" value="1,5"/>
+		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="FalloffRange" value="96,160"/>
+		<property name="DegradationMax" value="3500,8750"/>
+		<property name="DegradationRate" value="15,21"/>
+	</property>
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1911" name="762mmBulletBandit">
 	<property name="Extends" value="762mmBullet" />
+	<property name="CustomIcon" value="762mmBullet"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
 </item>
 
 <item id="1912" name="gunRocketLauncherBandit">
+	<property name="CustomIcon" value="gunRocketLauncher"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab"/>
@@ -16457,12 +16534,6 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	<property class="Parts">
-		<property name="Stock" value="partsRocketLauncher_stock"/>
-		<property name="Receiver" value="partsRocketLauncher_receiver"/>
-		<property name="Pump" value="partsRocketLauncher_parts"/>
-		<property name="Barrel" value="partsRocketLauncher_barrel"/>
-	</property>
 	<property name="Sound_Sight_In" value="launcher_sight_in"/>
 	<property name="Sound_Sight_Out" value="launcher_sight_out"/>
 	<property class="Action0">
@@ -16488,10 +16559,19 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="40"/>
 	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="250,500"/>
+		<property name="BlockDamage" value="100,300"/>
+		<!-- <property name="Accuracy" value="1,0.1"/>
+		<property name="FalloffRange" value="96,160"/> -->
+		<property name="DegradationMax" value="5000,10000"/>
+		<property name="DegradationRate" value="50,50"/>
+	</property>
 </item>
 
 <item id="1913" name="rocketBandit">
 	<property name="Extends" value="rocket" />
+	<property name="CustomIcon" value="rocket"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="15"/>
@@ -16499,7 +16579,7 @@ Mesh files no longer used:
 
 <!-- <item id="1914" name="handBoar">
 	<property name="Extends" value="handMaster" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="HoldType" value="46" />
 	<property class="Action0">
 		<property name="Delay" value="1.5" />
@@ -16532,7 +16612,7 @@ Mesh files no longer used:
 
 <!-- Class System -->
 <item id="1917" name="ClassPaperMaster">
-    <property name="IsDeveloper" value="true" />
+    <property name="CreativeMode" value="Dev"/>
 	<property name="Meshfile" value="Items/Misc/Book" />
 	<property name="Material" value="ClassPaper" />
 	<property name="HoldType" value="21" />
@@ -16639,7 +16719,7 @@ Mesh files no longer used:
 
 <item id="1926" name="handBossZombie">
 	<property name="Extends" value="handMaster" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Dev"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="25" />
 		<property name="DamageBlock" value="60" />

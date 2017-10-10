@@ -14835,7 +14835,7 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="DegradationMax" value="3000,8000" />
 		<property name="VehicleNoise" value="0.4,0.1" />
-		<property name="VehicleMaxSpeed" value="8,20" />
+		<property name="VehicleMaxSpeed" value="8,18" />
 		<property name="VehicleAcceleration" value="8,15" />
 		<property name="VehicleMetersPerLiter" value="20,25" />
 		<property name="VehicleIdleSecondsPerLiter" value="22,27" />
@@ -15435,10 +15435,17 @@ Mesh files no longer used:
 	<property name="RepairTools" value="repairKit"/>
 	<property name="HoldType" value="1"/>
 	<property name="DegradationBreaksAfter" value="false"/>
+	<!-- <property name="Degradation" value="5000" param1="true"/> -->
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/> 
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsPistol_gripBandit"/>
+		<property name="Receiver" value="partsPistol_receiverBandit"/>
+		<property name="Pump" value="partsPistol_partsBandit"/>
+		<property name="Barrel" value="partsPistol_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="pistol_sight_in"/>
 	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
 	<property class="Action0">
@@ -15469,20 +15476,30 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="11.4,19"/>
 		<property name="BlockDamage" value="5,13"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="Accuracy" value="1,0.1"/>
 		<property name="FalloffRange" value="22,50"/>
 		<property name="DegradationMax" value="2000,5000"/>
 		<property name="DegradationRate" value="10,10"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
-<item id="1868" name="9mmBanditBullet">
+<!-- <item id="1868" name="9mmBanditBullet">
 	<property name="Extends" value="9mmBullet" />
 	<property name="CustomIcon" value="9mmBullet"/>
+	<property name="Candrop" value="false"/>
+	<property name="IsDeveloper" value="true"/>
+	<property name="Stacknumber" value="1000"/>
+</item> -->
+
+<item id="1868" name="9mmBanditBullet">
+	<property name="CustomIcon" value="9mmBullet"/>
+	<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/9mm_bulletPrefab"/>
+	<property name="Material" value="brass"/>
+	<property name="HoldType" value="21"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
@@ -16068,6 +16085,12 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="parts44Magnum_gripBandit"/>
+		<property name="Receiver" value="parts44Magnum_cylinderBandit"/>
+		<property name="Pump" value="parts44Magnum_partsBandit"/>
+		<property name="Barrel" value="parts44Magnum_frameBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="revolver_sight_in"/>
 	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
 	<property class="Action0">
@@ -16098,20 +16121,22 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="27.5,78"/>
 		<property name="BlockDamage" value="4,8"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="Accuracy" value="1,0.1"/>
 		<property name="FalloffRange" value="30,50"/>
 		<property name="DegradationMax" value="4000,12500"/>
 		<property name="DegradationRate" value="20,34"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1901" name="44MagBulletBandit">
-	<property name="Extends" value="44MagBullet" />
 	<property name="CustomIcon" value="44MagBullet"/>
+	<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44_roundPrefab"/>
+	<property name="Material" value="brass"/>
+	<property name="HoldType" value="21"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
@@ -16130,6 +16155,12 @@ Mesh files no longer used:
 	<property name="FuelValue" value="32"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsHuntingRifle_stockBandit"/>
+		<property name="Receiver" value="partsHuntingRifle_receiverBandit"/>
+		<property name="Pump" value="partsHuntingRifle_partsBandit"/>
+		<property name="Barrel" value="partsHuntingRifle_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16160,14 +16191,14 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="55,90"/>
 		<property name="BlockDamage" value="1,5"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="Accuracy" value="1,0.1"/>
 		<property name="FalloffRange" value="96,160"/>
 		<property name="DegradationMax" value="2500,6250"/>
 		<property name="DegradationRate" value="10,15"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
@@ -16216,6 +16247,12 @@ Mesh files no longer used:
 	<property name="TintColor" value="255,255,255"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsMP5_stockBandit"/>
+		<property name="Receiver" value="partsMP5_receiverBandit"/>
+		<property name="Pump" value="partsMP5_partsBandit"/>
+		<property name="Barrel" value="partsMP5_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="smg_sight_in"/>
 	<property name="Sound_Sight_Out" value="smg_sight_out"/>
 	<property class="Action0">
@@ -16251,14 +16288,14 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="11.4,19"/>
 		<property name="BlockDamage" value="5,13"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
+		<property name="Accuracy" value="1,0.1"/>
 		<property name="FalloffRange" value="40,72"/>
 		<property name="DegradationMax" value="5600,14000"/>
 		<property name="DegradationRate" value="13,18"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
@@ -16295,6 +16332,12 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsAK47_stockBandit"/>
+		<property name="Receiver" value="partsAK47_receiverBandit"/>
+		<property name="Pump" value="partsAK47_partsBandit"/>
+		<property name="Barrel" value="partsAK47_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16331,14 +16374,13 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="50,90"/>
 		<property name="BlockDamage" value="1,5"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
 		<property name="FalloffRange" value="54,90"/>
 		<property name="DegradationMax" value="5600,14000"/>
 		<property name="DegradationRate" value="12,16"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
@@ -16354,6 +16396,12 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsPumpShotgun_stockShortBandit"/>
+		<property name="Receiver" value="partsPumpShotgun_receiverBandit"/>
+		<property name="Pump" value="partsPumpShotgun_partsBandit"/>
+		<property name="Barrel" value="partsPumpShotgun_barrelShortBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16386,14 +16434,13 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="40"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="6,10"/>
 		<property name="BlockDamage" value="5.4,13.5"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
 		<property name="FalloffRange" value="36,60"/>
 		<property name="DegradationMax" value="1800,4500"/>
 		<property name="DegradationRate" value="9,9"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
@@ -16409,6 +16456,12 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsPumpShotgun_stockBandit"/>
+		<property name="Receiver" value="partsPumpShotgun_receiverBandit"/>
+		<property name="Pump" value="partsPumpShotgun_partsBandit"/>
+		<property name="Barrel" value="partsPumpShotgun_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16453,10 +16506,15 @@ Mesh files no longer used:
 </item>
 
 <item id="1909" name="shotgunShellBandit">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="shotgunShell" />
 	<property name="CustomIcon" value="shotgunShell"/>
 	<property name="Candrop" value="false"/>
-	<property name="IsDeveloper" value="true"/>
+	<property class="Attributes">
+		<property name="GetQualityFromWeapon" value="true"/>
+		<property name="EntityDamage" value="30,45"/>
+		<property name="BlockDamage" value="15,25"/>
+	</property>
 	<property name="Stacknumber" value="1000"/>
 </item>
 
@@ -16472,6 +16530,12 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsSniperRifle_stockBandit"/>
+		<property name="Receiver" value="partsSniperRifle_receiverBandit"/>
+		<property name="Pump" value="partsSniperRifle_partsBandit"/>
+		<property name="Barrel" value="partsSniperRifle_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
@@ -16503,26 +16567,29 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="15"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="55,90"/>
 		<property name="BlockDamage" value="1,5"/>
-		<!-- <property name="Accuracy" value="1,0.1"/> -->
 		<property name="FalloffRange" value="96,160"/>
 		<property name="DegradationMax" value="3500,8750"/>
 		<property name="DegradationRate" value="15,21"/>
-	</property>
+	</property> -->
 	<property name="LightValue" value="0.45"/>
 </item>
 
 <item id="1911" name="762mmBulletBandit">
-	<property name="Extends" value="762mmBullet" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="762mmBullet"/>
+	<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab"/>
+	<property name="Material" value="brass"/>
+	<property name="HoldType" value="21"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Stacknumber" value="1000"/>
 </item>
 
 <item id="1912" name="gunRocketLauncherBandit">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="gunRocketLauncher"/>
 	<property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
@@ -16534,6 +16601,12 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Parts">
+		<property name="Stock" value="partsRocketLauncher_stockBandit"/>
+		<property name="Receiver" value="partsRocketLauncher_receiverBandit"/>
+		<property name="Pump" value="partsRocketLauncher_partsBandit"/>
+		<property name="Barrel" value="partsRocketLauncher_barrelBandit"/>
+	</property>
 	<property name="Sound_Sight_In" value="launcher_sight_in"/>
 	<property name="Sound_Sight_Out" value="launcher_sight_out"/>
 	<property class="Action0">
@@ -16559,17 +16632,17 @@ Mesh files no longer used:
 		<property name="Zoom_max_out" value="40"/>
 		<property name="Zoom_max_in" value="40"/>
 	</property>
-	<property class="Attributes">
+	<!-- <property class="Attributes">
 		<property name="EntityDamage" value="250,500"/>
 		<property name="BlockDamage" value="100,300"/>
-		<!-- <property name="Accuracy" value="1,0.1"/>
-		<property name="FalloffRange" value="96,160"/> -->
+		<property name="FalloffRange" value="96,160"/>
 		<property name="DegradationMax" value="5000,10000"/>
 		<property name="DegradationRate" value="50,50"/>
-	</property>
+	</property> -->
 </item>
 
 <item id="1913" name="rocketBandit">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="rocket" />
 	<property name="CustomIcon" value="rocket"/>
 	<property name="Candrop" value="false"/>
@@ -17224,6 +17297,463 @@ Mesh files no longer used:
     </property>
 	<property name="DescriptionKey" value="HelmetLightDesc" />
 	<property name="LightValue" value="0.7"/>
+</item>
+
+<item id="1946" name="partsPistol_gripBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Weight" value="10"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="10,10"/>
+		<property name="DegradationMax" value="2000,5000"/>
+	</property>
+	<property name="EconomicValue" value="412"/>
+</item>
+
+<item id="1947" name="partsPistol_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="20"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="22,50"/>
+		<property name="DegradationMax" value="2000,5000"/>
+	</property>
+	<property name="EconomicValue" value="412"/>
+</item>
+
+<item id="1948" name="partsPistol_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="10"/>
+	<property class="Attributes">
+		<!-- <property name="Accuracy" value="1,0.01"/> -->
+		<property name="DegradationMax" value="2000,5000"/>
+	</property>
+	<property name="EconomicValue" value="412"/>
+</item>
+
+<item id="1949" name="partsPistol_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="10"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="11.4,19"/>
+		<property name="BlockDamage" value="5,13"/>
+		<property name="DegradationMax" value="2000,5000"/>
+	</property>
+	<property name="EconomicValue" value="412"/>
+</item>
+
+<item id="1950" name="parts44Magnum_gripBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Weight" value="15"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="20,34"/>
+		<property name="DegradationMax" value="4000,12500"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1951" name="parts44Magnum_cylinderBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="10"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="30,50"/>
+		<property name="DegradationMax" value="4000,12500"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1952" name="parts44Magnum_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="10"/>
+	<property class="Attributes">
+		<!-- <property name="Accuracy" value="1,0.05"/> -->
+		<property name="DegradationMax" value="4000,12500"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1953" name="parts44Magnum_frameBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="20"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="27.5,78"/>
+		<property name="BlockDamage" value="4,8"/>
+		<property name="DegradationMax" value="4000,12500"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1954" name="partsHuntingRifle_stockBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Material" value="wood"/>
+	<property name="Weight" value="20"/>
+	<property name="FuelValue" value="40"/>
+	<property class="Attributes">
+		<property name="DismembermentBaseChance" value="0.01,0.05"/>
+		<property name="DegradationRate" value="10,15"/>
+		<property name="DegradationMax" value="2500,6250"/>
+	</property>
+</item>
+
+<item id="1955" name="partsHuntingRifle_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="30"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="96,160"/>
+		<property name="DegradationMax" value="2500,6250"/>
+	</property>
+</item>
+
+<item id="1956" name="partsHuntingRifle_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="CustomIcon" value="partsPistol_parts"/> <!-- xxx -->
+	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="15"/>
+	<property class="Attributes">
+		<property name="Accuracy" value="11,11"/> <!-- 29 -->
+		<property name="DegradationMax" value="2500,6250"/>
+	</property>
+</item>
+
+<item id="1957" name="partsHuntingRifle_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsHuntingRifleGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="35"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="55,90"/>
+		<property name="BlockDamage" value="1,5"/>
+		<property name="DegradationMax" value="2500,6250"/>
+	</property>
+</item>
+
+<item id="1958" name="partsMP5_stockBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Weight" value="25"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="13,18"/>
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1959" name="partsMP5_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="25"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="40,72"/>
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1960" name="partsMP5_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="CustomIcon" value="parts44Magnum_parts"/> <!-- xxx -->
+	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="15"/>
+	<property class="Attributes">
+		<property name="Accuracy" value="5,5"/> <!-- 10 -->
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1961" name="partsMP5_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsMP5GroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="25"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="11.4,19"/>
+		<property name="BlockDamage" value="5,13"/>
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1125"/>
+</item>
+
+<item id="1962" name="partsAK47_stockBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Weight" value="30"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="12,16"/>
+		<property name="DegradationMax" value="5600,14000"/>
+		<property name="DismembermentBaseChance" value="-0.2,-0.1"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1963" name="partsAK47_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="30"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="54,90"/>
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1964" name="partsAK47_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="15"/>
+	<property class="Attributes">
+		<property name="Accuracy" value="7,7"/> <!-- 14.5 -->
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1965" name="partsAK47_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="CustomIcon" value="partsPistol_barrel"/>
+	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="35"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="42,70"/>
+		<property name="BlockDamage" value="5,9.5"/>
+		<property name="DegradationMax" value="5600,14000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1966" name="partsPumpShotgun_stockShortBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPumpShotgunShortGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Material" value="wood"/>
+	<property name="Weight" value="15"/>
+	<property name="FuelValue" value="10"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="9,9"/>
+		<property name="DegradationMax" value="1800,4500"/>
+	</property>
+	<property name="EconomicValue" value="525"/>
+</item>
+
+<item id="1967" name="partsPumpShotgun_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="commonShotgunPartsGroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="25"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="36,60"/>
+		<property name="DegradationMax" value="1800,4500"/>
+	</property>
+	<property name="EconomicValue" value="525"/>
+</item>
+
+<item id="1968" name="partsPumpShotgun_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="commonShotgunPartsGroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="15"/>
+	<property class="Attributes">
+		<!-- <property name="Accuracy" value="1,0.08"/> -->
+		<property name="DegradationMax" value="1800,4500"/>
+	</property>
+	<property name="EconomicValue" value="525"/>
+</item>
+
+<item id="1969" name="partsPumpShotgun_barrelShortBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPumpShotgunShortGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="20"/>
+	<property class="Attributes">
+		<property name="DegradationMax" value="1800,4500"/>
+	</property>
+	<property name="EconomicValue" value="525"/>
+</item>
+
+<item id="1970" name="partsPumpShotgun_stockBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPumpShotgunGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Material" value="wood"/>
+	<property name="Weight" value="20"/>
+	<property name="FuelValue" value="24"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="9,9"/>
+		<property name="DegradationMax" value="1800,4500"/>
+	</property>
+	<property name="EconomicValue" value="675"/>
+</item>
+
+<item id="1971" name="partsPumpShotgun_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsPumpShotgunGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="30"/>
+	<property class="Attributes">
+		<property name="DegradationMax" value="1800,4500"/>
+	</property>
+	<property name="EconomicValue" value="675"/>
+</item>
+
+<item id="1972" name="partsSniperRifle_stockBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Weight" value="30"/>
+	<property class="Attributes">
+		<property name="DismembermentBaseChance" value="0.01,0.06"/>
+		<property name="DismembermentBonus" value="0,0"/>
+		<property name="DegradationRate" value="15,21"/>
+		<property name="DegradationMax" value="3500,8750"/>
+	</property>
+	<property name="EconomicValue" value="875"/>
+</item>
+
+<item id="1973" name="partsSniperRifle_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="30"/>
+	<property class="Attributes">
+		<property name="FalloffRange" value="96,160"/>
+		<property name="DegradationMax" value="3500,8750"/>
+	</property>
+	<property name="EconomicValue" value="875"/>
+</item>
+
+<item id="1974" name="partsSniperRifle_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="CustomIcon" value="partsPistol_parts"/> <!-- xxx -->
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="15"/>
+	<property class="Attributes">
+		<property name="Accuracy" value="13,13"/> <!-- 39 -->
+		<property name="DegradationMax" value="3500,8750"/>
+	</property>
+	<property name="EconomicValue" value="875"/>
+</item>
+
+<item id="1975" name="partsSniperRifle_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="40"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="55,90"/>
+		<property name="BlockDamage" value="1,5"/>
+		<property name="DegradationMax" value="3500,8750"/>
+	</property>
+	<property name="EconomicValue" value="875"/>
+</item>
+
+<item id="1976" name="partsRocketLauncher_stockBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
+	<property name="PartType" value="Stock"/>
+	<property name="Weight" value="35"/>
+	<property class="Attributes">
+		<property name="DegradationRate" value="50,50"/>
+		<property name="DegradationMax" value="5000,10000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1977" name="partsRocketLauncher_receiverBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
+	<property name="PartType" value="Receiver"/>
+	<property name="Weight" value="35"/>
+	<property class="Attributes">
+		<!-- <property name="FalloffRange" value="40,70"/> -->
+		<property name="DegradationMax" value="5000,10000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1978" name="partsRocketLauncher_partsBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
+	<property name="PartType" value="Pump"/>
+	<property name="Weight" value="20"/>
+	<property class="Attributes">
+		<!-- <property name="Accuracy" value="1,0.01"/> -->
+		<property name="DegradationMax" value="5000,10000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
+</item>
+
+<item id="1979" name="partsRocketLauncher_barrelBandit">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="partsMaster"/>
+	<property name="DescriptionKey" value="partsRocketLauncherGroupDesc"/>
+	<property name="PartType" value="Barrel"/>
+	<property name="Weight" value="45"/>
+	<property class="Attributes">
+		<property name="EntityDamage" value="250,500"/>
+		<property name="EntityDamage" value="100,300"/>
+		<property name="DegradationMax" value="5000,10000"/>
+	</property>
+	<property name="EconomicValue" value="1500"/>
 </item>
 
 </items>

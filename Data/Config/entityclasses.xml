@@ -2529,8 +2529,8 @@
 
 <entity_class name="npcBanditRoger" extends="npcMaleRangedBanditTemplate">
 	<property name="Archetype" value="BanditRoger"/>
-	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunMP5Bandit,10mmBulletBandit"/>
-	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunMP5Bandit,10mmBulletBandit"/>
+	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunMP5Bandit,9mmBanditBullet"/>
+	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunMP5Bandit,9mmBanditBullet"/>
 	<property name="AIPackages" value="Bandit Basic, Bandit Ranged"/>
 </entity_class>
 

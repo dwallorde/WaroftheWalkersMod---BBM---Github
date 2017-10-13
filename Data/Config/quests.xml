@@ -2000,7 +2000,7 @@
 			<requirement type="Holding" id="woodenBow" />
 		<reward type="Exp" value="1500" />
 		<reward type="SkillPoints" value="1" />
-		<reward type="Skill" id="Hunting Rifle Recipe" value="1" />
+		<reward type="Skill" id="huntingRifleSchematicPerk" value="1" />
 		<reward type="Skill" id="762mm Round Crafting" value="1" />
 		<reward type="Skill" id="Remington8 Recipe" value="1" />
 		<reward type="Skill" id="32mm Bullet Crafting" value="1" />

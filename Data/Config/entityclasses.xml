@@ -2714,8 +2714,8 @@
 <entity_class name="npcTravelingTraderHugh" extends="npcTravelingTraderTemplate">
 	<property name="Archetype" value="TraderHugh"/>
 	<property name="AIPackages" value="Human Basic, Human Ranged"/>
-	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunMP5Bandit,10mmBulletBandit" />
-	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunMP5Bandit,10mmBulletBandit" />
+	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunMP5Bandit,9mmBanditBullet" />
+	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunMP5Bandit,9mmBanditBullet" />
 	<property name="NPCID" value="travelingtraderric"/>
 </entity_class>
 

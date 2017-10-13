@@ -17015,7 +17015,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.leaves" value="2"/>
 		<property name="DamageBonus.earth" value="2"/>
 		<property name="DamageBonus.organic" value="0.05"/>
-		<property name="ToolCategory.handToolHarvest" value="1" param1="7"/>
+		<!-- <property name="ToolCategory.handToolHarvest" value="1" param1="7"/> -->
 		<property name="ToolCategory.Hoe" value="1"/>
 		<!-- <property name="Sound_harvesting" value="open_animal" param1="organic" /> -->
 	</property>

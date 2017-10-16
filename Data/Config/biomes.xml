@@ -140,8 +140,8 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Snow Main Biome -->
 	<biome name="snow" biomemapcolor="#FFFFFF">
 		<weather>
-			<Temperature min="-80" max="-70" prob="0.95"/> <!-- 1.15 Total = 82.6% Chance For This Temp Range -->
-			<Temperature min="-70" max="-40" prob="0.2"/> <!-- 1.15 Total = 17.4% Chance for this Temp Range -->
+			<Temperature min="-75" max="-65" prob="0.95"/> <!-- 1.15 Total = 82.6% Chance For This Temp Range -->
+			<Temperature min="-60" max="-40" prob="0.2"/> <!-- 1.15 Total = 17.4% Chance for this Temp Range -->
 			<Fog min="0" max="0" prob="0.9"/> <!-- 1.3 Total = 69.2% Chance for this Fog Range -->
 			<Fog min="20" max="45" prob="0.3"/> <!-- 1.3 Total = 23.0% Chance for this Fog Range -->
 			<Fog min="100" max="100" prob="0.1"/> <!-- 1.3 Total = 7.7% Chance for this Fog Range -->
@@ -439,8 +439,8 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Forest Main Biome -->
 	<biome name="forest" biomemapcolor="#008D00" >
 		<weather>
-			<Temperature min="-5" max="5" prob="1.1"/> <!-- 1.37 Total = 80.3% Chance for this Temperature Range -->
-			<Temperature min="-35" max="-10" prob="0.27"/> <!-- 1.37 Total = 19.7% Chance for this Temperature Range -->
+			<Temperature min="-10" max="0" prob="1.1"/> <!-- 1.37 Total = 80.3% Chance for this Temperature Range -->
+			<Temperature min="-20" max="-10" prob="0.27"/> <!-- 1.37 Total = 19.7% Chance for this Temperature Range -->
 			<Fog min="0" max="0" prob="0.6"/> <!-- 1.66 Total = 36.1% Chance for this Fog Range -->
 			<Fog min="35" max="80" prob="0.85"/> <!-- 1.66 Total = 51.2% Chance for this Fog Range -->
 			<Fog min="100" max="100" prob="0.21"/> <!-- 1.66 Total = 12.7% Chance for this Fog Range -->
@@ -694,8 +694,8 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Pine Forest Main Biome  -->
 	<biome name="pine_forest" biomemapcolor="#004000" >
 		<weather>
-			<Temperature min="-50" max="-20" prob="0.35"/> <!-- 1.1 Total = 31.8% Chance for this Temperature Range -->
-			<Temperature min="-10" max="10" prob="0.75"/> <!-- 1.1 Total = 68.2% Chance for this Temperature Range -->
+			<Temperature min="-30" max="-10" prob="0.35"/> <!-- 1.1 Total = 31.8% Chance for this Temperature Range -->
+			<Temperature min="-10" max="0" prob="0.75"/> <!-- 1.1 Total = 68.2% Chance for this Temperature Range -->
 			<Fog min="0" max="0" prob="0.6"/> <!-- 1.17 Total = 51.3% Chance for this Fog Range -->
 			<Fog min="40" max="60" prob="0.45"/> <!-- 1.17 Total = 38.5% Chance for this Fog Range -->
 			<Fog min="95" max="100" prob="0.12"/> <!-- 1.17 Total = 10.3% Chance for this Fog Range -->
@@ -963,7 +963,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<biome name="plains" biomemapcolor="#00FF00" >
 		<weather>
 			<Temperature min="-5" max="0" prob="0.84"/> <!-- 1.33 Total = 63.2% Chance for this Temperature Range -->
-			<Temperature min="0" max="10" prob="0.49"/> <!-- 1.33 Total = 36.8% Chance for this Temperature Range -->
+			<Temperature min="0" max="6" prob="0.49"/> <!-- 1.33 Total = 36.8% Chance for this Temperature Range -->
 			<Fog min="0" max="0" prob="0.89"/> <!-- 1.64 Total = 54.3% Chance for this Fog Range -->
 			<Fog min="10" max="40" prob="0.62"/> <!-- 1.64 Total = 37.8% Chance for this Fog Range -->
 			<Fog min="100" max="100" prob="0.13"/> <!-- 1.64 Total = 7.9% Chance for this Fog Range -->
@@ -1237,8 +1237,8 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Desert Main Biome -->
 	<biome name="desert" biomemapcolor="#FFE477">
 		<weather>
-			<Temperature min="25" max="31" prob="0.9"/> <!-- 1.07 Total = 84.1% Chance for this Temperature Range -->
-			<Temperature min="18" max="25" prob="0.17"/> <!-- 1.07 Total = 15.9% Chance for this Temperature Range -->
+			<Temperature min="15" max="25" prob="0.9"/> <!-- 1.07 Total = 84.1% Chance for this Temperature Range -->
+			<Temperature min="10" max="15" prob="0.17"/> <!-- 1.07 Total = 15.9% Chance for this Temperature Range -->
 			<Fog min="0" max="0" prob="0.9"/> <!-- 1.21 Total = 74.4% Chance for this Fog Range -->
 			<Fog min="5" max="20" prob="0.21"/> <!-- 1.21 Total = 17.3% Chance for this Fog Range -->
 			<Fog min="100" max="100" prob="0.1"/> <!-- 1.21 Total = 8.3% Chance for this Fog Range -->

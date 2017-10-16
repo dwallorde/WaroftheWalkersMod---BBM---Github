@@ -1720,7 +1720,7 @@
 	subtitle_key="classtrainingbuilder1_subtitle"
 	offer_key="classtrainingbuilder1_offer"
 	description_key="classtrainingbuilder1_description"
-	icon="classBuilderLevel1Icon"
+	icon="ui_game_symbol_classbuilder1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1747,7 +1747,7 @@
 	group_name="BuilderClassTraining"
 	subtitle_key="classtrainingbuilder2_subtitle"
 	description_key="classtrainingbuilder2_description"
-	icon="classBuilderLevel2Icon"
+	icon="ui_game_symbol_classbuilder2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1775,7 +1775,7 @@
 	group_name="BuilderClassTraining"
 	subtitle_key="classtrainingbuilder3_subtitle"
 	description_key="classtrainingbuilder3_description"
-	icon="classBuilderLevel3Icon"
+	icon="ui_game_symbol_classbuilder3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1798,7 +1798,7 @@
 	group_name="BuilderClassTraining"
 	offer_key="classtrainingbuilder_completion_info"
 	description_key="classtrainingbuilder_completion_info"
-	icon="classBuilderLevel3Icon"
+	icon="ui_game_symbol_classbuilder3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1813,7 +1813,7 @@
 	subtitle_key="classtrainingsurvivalist1_subtitle"
 	offer_key="classtrainingsurvivalist1_offer"
 	description_key="classtrainingsurvivalist1_description"
-	icon="classSurvivalistLevel1Icon"
+	icon="ui_game_symbol_classSurvivalist1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1840,7 +1840,7 @@
 	group_name="SurvivalistClassTraining"
 	subtitle_key="classtrainingsurvivalist2_subtitle"
 	description_key="classtrainingsurvivalist2_description"
-	icon="classSurvivalistLevel2Icon"
+	icon="ui_game_symbol_classSurvivalist2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1863,7 +1863,7 @@
 	group_name="SurvivalistClassTraining"
 	subtitle_key="classtrainingsurvivalist3_subtitle"
 	description_key="classtrainingsurvivalist3_description"
-	icon="classSurvivalistLevel3Icon"
+	icon="ui_game_symbol_classSurvivalist3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1874,7 +1874,7 @@
 		<reward type="SkillPoints" value="3" />
 		<reward type="Recipe" id="TraumaFirstAidKit" />
 		<reward type="Item" id="ClassCrateSurvivalist" value="1" />
-		<reward type="Skill" id="Pistol Recipe" value="1" />
+		<reward type="Skill" id="pistolBookPerk" value="1" />
 		<reward type="Skill" id="9mm Round Crafting" value="1" />
 		<reward type="Skill" id="Athletics" value="20" />
 		<reward type="Skill" id="SurvivalistClassLevel3" value="1" />
@@ -1885,7 +1885,7 @@
 	name_key="classtrainingsurvivalist_completion"
 	offer_key="classtrainingsurvivalist_completion_info"
 	description_key="classtrainingsurvivalist_completion_info"
-	icon="classSurvivalistLevel3Icon"
+	icon="ui_game_symbol_classSurvivalist3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1900,7 +1900,7 @@
 	subtitle_key="classtrainingscholar1_subtitle"
 	offer_key="classtrainingscholar1_offer"
 	description_key="classtrainingscholar1_description"
-	icon="classScholarLevel1Icon"
+	icon="ui_game_symbol_classScholar1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1926,7 +1926,7 @@
 	group_name="ScholarClassTraining"
 	subtitle_key="classtrainingscholar2_subtitle"
 	description_key="classtrainingscholar2_description"
-	icon="classScholarLevel2Icon"
+	icon="ui_game_symbol_classScholar2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1950,7 +1950,7 @@
 	group_name="ScholarClassTraining"
 	subtitle_key="classtrainingscholar3_subtitle"
 	description_key="classtrainingscholar3_description"
-	icon="classScholarLevel3Icon"
+	icon="ui_game_symbol_classScholar3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1976,7 +1976,7 @@
 	name_key="classtrainingscholar_completion"
 	offer_key="classtrainingscholar_completion_info"
 	description_key="classtrainingscholar_completion_info"
-	icon="classScholarLevel3Icon"
+	icon="ui_game_symbol_classScholar3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -1991,7 +1991,7 @@
 	subtitle_key="classtrainingmarksman1_subtitle"
 	offer_key="classtrainingmarksman1_offer"
 	description_key="classtrainingmarksman1_description"
-	icon="classMarksmanLevel1Icon"
+	icon="ui_game_symbol_classMarksman1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2016,7 +2016,7 @@
 	group_name="MarksmanClassTraining"
 	subtitle_key="classtrainingmarksman2_subtitle"
 	description_key="classtrainingmarksman2_description"
-	icon="classMarksmanLevel2Icon"
+	icon="ui_game_symbol_classMarksman2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2044,7 +2044,7 @@
 	group_name="MarksmanClassTraining"
 	subtitle_key="classtrainingmarksman3_subtitle"
 	description_key="classtrainingmarksman3_description"
-	icon="classMarksmanLevel3Icon"
+	icon="ui_game_symbol_classMarksman3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2067,7 +2067,7 @@
 	name_key="classtrainingmarksman_completion"
 	offer_key="classtrainingmarksman_completion_info"
 	description_key="classtrainingmarksman_completion_info"
-	icon="classMarksmanLevel3Icon"
+	icon="ui_game_symbol_classMarksman3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2082,7 +2082,7 @@
 	subtitle_key="classtrainingfighter1_subtitle"
 	offer_key="classtrainingfighter1_offer"
 	description_key="classtrainingfighter1_description"
-	icon="classFighterLevel1Icon"
+	icon="ui_game_symbol_classFighter1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2107,7 +2107,7 @@
 	group_name="FighterClassTraining"
 	subtitle_key="classtrainingfighter2_subtitle"
 	description_key="classtrainingfighter2_description"
-	icon="classFighterLevel2Icon"
+	icon="ui_game_symbol_classFighter2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2132,7 +2132,7 @@
 	group_name="FighterClassTraining"
 	subtitle_key="classtrainingfighter3_subtitle"
 	description_key="classtrainingfighter3_description"
-	icon="classFighterLevel3Icon"
+	icon="ui_game_symbol_classFighter3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2162,7 +2162,7 @@
 	name_key="classtrainingfighter_completion"
 	offer_key="classtrainingfighter_completion_info"
 	description_key="classtrainingfighter_completion_info"
-	icon="classFighterLevel3Icon"
+	icon="ui_game_symbol_classFighter3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2177,7 +2177,7 @@
 	subtitle_key="classtrainingtradesman1_subtitle"
 	offer_key="classtrainingtradesman1_offer"
 	description_key="classtrainingtradesman1_description"
-	icon="classTradesmanLevel1Icon"
+	icon="ui_game_symbol_classTradesman1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2205,7 +2205,7 @@
 	group_name="TradesmanClassTraining"
 	subtitle_key="classtrainingtradesman2_subtitle"
 	description_key="classtrainingtradesman2_description"
-	icon="classTradesmanLevel2Icon"
+	icon="ui_game_symbol_classTradesman2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2231,7 +2231,7 @@
 	group_name="TradesmanClassTraining"
 	subtitle_key="classtrainingtradesman3_subtitle"
 	description_key="classtrainingtradesman3_description"
-	icon="classTradesmanLevel3Icon"
+	icon="ui_game_symbol_classTradesman3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2260,7 +2260,7 @@
 	name_key="classtrainingtradesman_completion"
 	offer_key="classtrainingtradesman_completion_info"
 	description_key="classtrainingtradesman_completion_info"
-	icon="classTradesmanLevel3Icon"
+	icon="ui_game_symbol_classTradesman3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2275,7 +2275,7 @@
 	subtitle_key="classtrainingprotection1_subtitle"
 	offer_key="classtrainingprotection1_offer"
 	description_key="classtrainingprotection1_description"
-	icon="classProtectionLevel1Icon"
+	icon="ui_game_symbol_classProtection1"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2299,7 +2299,7 @@
 	group_name="ProtectionClassTraining"
 	subtitle_key="classtrainingprotection2_subtitle"
 	description_key="classtrainingprotection2_description"
-	icon="classProtectionLevel2Icon"
+	icon="ui_game_symbol_classProtection2"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2325,7 +2325,7 @@
 	group_name="ProtectionClassTraining"
 	subtitle_key="classtrainingprotection3_subtitle"
 	description_key="classtrainingprotection3_description"
-	icon="classProtectionLevel3Icon"
+	icon="ui_game_symbol_classProtection3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">
@@ -2354,7 +2354,7 @@
 	name_key="classtrainingprotection_completion"
 	offer_key="classtrainingprotection_completion_info"
 	description_key="classtrainingprotection_completion_info"
-	icon="classProtectionLevel3Icon"
+	icon="ui_game_symbol_classProtection3"
 	repeatable="false"
 	category_key="Quest"
 	difficulty="easy">

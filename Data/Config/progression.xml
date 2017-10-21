@@ -3,7 +3,7 @@
 <progression>
 <player
 	max_level="250"
-	exp_to_level="8450"
+	exp_to_level="8650"
 	experience_multiplier="1.0149"
 	skill_points_per_level="6"
 	skill_point_multiplier="0"/>
@@ -1988,7 +1988,7 @@
 	<recipe name="Kevlar" unlock_level="1"/>
 </perk> -->
 
-<perk name="Kevlar Armor" icon="ui_game_symbol_medium_armor" description_key="KevlarArmorSkillDesc" max_level="5" skill_point_cost_multiplier="0.2" skill_point_cost_per_level="5" group="clothing">
+<perk name="Kevlar Armor" icon="ui_game_symbol_medium_armor" description_key="KevlarArmorSkillDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 	<requirement skill_level="1" required_player_level="41"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="3"/>
 	<requirement skill_level="1" required_skill_name="ProtectionClassLevel2" required_skill_level="1"/>
@@ -2018,7 +2018,7 @@
 	<recipe name="scrapChestArmor" unlock_level="1"/>
 </perk>
 
-<perk name="Iron Armor" icon="armor_iron" description_key="IronArmorDesc" max_level="5" skill_point_cost_multiplier="0.1667" skill_point_cost_per_level="6" group="clothing">
+<perk name="Iron Armor" icon="armor_iron" description_key="IronArmorDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="6" group="clothing">
 	<requirement skill_level="1" required_player_level="80"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="4"/>
 	<requirement skill_level="1" required_skill_name="ProtectionClassLevel2" required_skill_level="1"/>

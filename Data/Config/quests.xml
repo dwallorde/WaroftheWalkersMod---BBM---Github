@@ -802,9 +802,9 @@
 	category_key="challenge"
 	difficulty="medium">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="potato" value="5" />
-		<objective type="FetchKeep" id="corn" value="5" />
-		<objective type="FetchKeep" id="mushrooms" value="10" />
+		<objective type="FetchKeep" id="potato" value="25" />
+		<objective type="FetchKeep" id="corn" value="25" />
+		<objective type="FetchKeep" id="mushrooms" value="25" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="vegetableStew" value="5" />
 		<reward type="SkillPoints" value="2" />
@@ -2060,6 +2060,7 @@
 		<reward type="Item" id="BarettaShotgun" value="250" />
 		<reward type="Item" id="MagazineGunSmithing" value="1" /> <!-- Craft Skill Guns 1 Skill Point Reward -->
 		<reward type="Skill" id="MarksmanClassLevel3" value="1" />
+		<reward type="Item" id="ClassCrateMarksman" value="1" />
 		<reward type="Quest" id="classtrainingmarksman4" />
 	</quest>
 	

@@ -6196,6 +6196,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_bandage"/>
+		<property name="Buff" value="lossInjuryBuff" />
 		<property name="Debuff" value="bleeding,arrowCriticalBleedout"/>
 	</property>
 	<property class="Action1">
@@ -6206,6 +6207,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_bandage"/>
+		<property name="Buff" value="lossInjuryBuff" />
 		<property name="Debuff" value="bleeding,arrowCriticalBleedout"/>
 	</property>
 	<property name="Group" value="Science,Basics"/>

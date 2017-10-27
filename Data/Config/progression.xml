@@ -1545,7 +1545,6 @@
 <perk name="Tungsten Smithing" icon="ui_game_symbol_tungstensmithing" description_key="TungstenSmithingDesc" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 	<requirement skill_level="1" required_player_level="100"/>
 	<requirement skill_level="1" required_skill_name="Construction" required_skill_level="8"/>
-	<requirement skill_level="1" required_skill_name="Steel Smithing" required_skill_level="1"/>
 	<recipe name="ForgedTungsten" unlock_level="1"/>
 	<recipe name="TungstenArrowHead" unlock_level="1"/>
 </perk>

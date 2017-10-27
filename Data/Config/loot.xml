@@ -935,7 +935,7 @@
 </lootgroup>
 
 <lootgroup name="weaponsBasicGuns+ammo">
-	<item group="CompoundBow+ammo" prob="0.05"/>
+	<item group="CompoundBow+ammo" prob="0.01"/>
 	<item group="weaponsPistol+ammo" prob="0.03"/>
 	<item group="weaponsAnyShotguns+ammo" prob="0.03"/>
 	<item group="weaponsHuntingRifle+ammo" prob="0.03"/>
@@ -979,7 +979,7 @@
 <lootgroup name="GunSafeWeapons" count="1">
 	<item group="pumpshotgun+ammo"/>
 	<item group="weaponsHuntingRifle+ammo"/>
-	<item group="CompoundBow+ammo" prob="0.101"/>
+	<item group="CompoundBow+ammo" prob="0.1"/>
 	<item group="Barettashotgun+ammo" prob="0.1"/>
 	<item group="Remington8+ammo" prob="0.1"/>
 	<item group="weaponsSniperRifle+ammo" prob="0.075"/>

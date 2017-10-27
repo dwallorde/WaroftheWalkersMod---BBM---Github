@@ -1492,9 +1492,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="blueberryPie" count="1" craft_area="campfire" craft_tool="cookingPot">
-	<ingredient name="blueberries" count="1"/>
+	<ingredient name="blueberries" count="5"/>
 	<ingredient name="egg" count="1"/>
-	<ingredient name="cornMeal" count="1"/>
+	<ingredient name="Dough" count="2"/>
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
@@ -3045,8 +3045,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="radiator" count="1" craft_area="workbench">
-	<ingredient name="forgedIron" count="4"/>
-	<ingredient name="scrapBrass" count="4"/>
+	<ingredient name="scrapBrass" count="100"/>
 </recipe>
 
 <recipe name="hubcap" count="1" craft_area="workbench">

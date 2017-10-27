@@ -12875,7 +12875,20 @@ kind of free
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="88"/>
 </block>
-	<!-- 3 Free -->
+
+<!-- WOTW Mod -->
+<block id="1223" name="cntLootBGGJoe">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="cntGarageStorage"/>
+	<property name="LootList" value="142"/>
+</block>
+
+<!-- WOTW Mod -->
+<block id="1224" name="cntLootBGGMatt">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="cntGarageStorage"/>
+	<property name="LootList" value="143"/>
+</block>
 
 <block id="1226" name="houseFrontDoor2_v1">
 	<property name="Extends" value="houseFrontDoor1_v1"/>
@@ -13600,9 +13613,9 @@ kind of free
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="ParticleName" value="candleWall_flame"/>
 	<property name="CanPickup" value="true" param1="candle"/>
-	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapStrength" value="0.25"/>
 	<property name="HeatMapTime" value="1200"/>
-	<property name="HeatMapFrequency" value="15"/>
+	<property name="HeatMapFrequency" value="25"/>
 	<drop event="Destroy" name="candle" count="1"/>
 	<property name="Group" value="Building"/>
 	<property name="DescriptionKey" value="torchGroupDesc"/>
@@ -14021,9 +14034,9 @@ kind of free
 	<property name="CustomIcon" value="candleWall"/>
 	<property name="Stacknumber" value="50"/>
 	<property name="Class" value="TorchHeatMap"/>
-	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapStrength" value="0.25"/>
 	<property name="HeatMapTime" value="1200"/>
-	<property name="HeatMapFrequency" value="15"/>
+	<property name="HeatMapFrequency" value="25"/>
 	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 </block>
 

@@ -1,5 +1,5 @@
 ![alt text](http://i64.tinypic.com/2dkcthk.png)
-# 7 Days to Die - War of the Walkers Client Side Mod
+# War of the Walkers Client Side Mod w/ BBM
 ### V5.1.7(B64) r10.27.2017 Alpha 16.4 (b8)
 ---
 New Save Game Required When installing mod for first time! Do not use a save game from a vanilla game or another mod.
